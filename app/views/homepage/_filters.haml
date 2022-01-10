@@ -2,7 +2,7 @@
   - if show_price_filter
     = render :partial => "price_filter"
 
-  - if show_custom_fields
+  - if show_custom_fields && params["category"].present? && params["category"] != 'all'
     = render :partial => "custom_filters", locals: { filters: filters }
 
   %button{type: 'submit'}
