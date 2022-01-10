@@ -101,7 +101,7 @@ class ListingShape < ApplicationRecord
         units.each{|unit| shape.listing_units.build(ListingUnit.permitted_attributes(unit)) }
       end
       shape.save!
-      shape.assign_to_categories!
+      #shape.assign_to_categories!
     end
     shape
   end
