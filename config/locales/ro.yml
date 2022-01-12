@@ -72,13 +72,13 @@ ro:
         community_name: "Numele Marketplace-ului"
         edit_community_name_description: "Numele marketplace-ului dvs. Acest lucru este afișat utilizatorilor în e-mailuri și în diverse alte locuri."
         community_slogan: "Sloganul Marketplace-ului"
-        community_slogan_display: ~
+        community_slogan_display: "Afișați sloganul în pagina de pornire sau în pagina de destinație personalizată"
         edit_community_slogan_description: "Acesta apare in pagina de start a marketplace-ului pentru utilizatorii care nu s-au autentificat. %{see_how_it_looks_like}."
-        edit_community_slogan_description_hideable: ~
+        edit_community_slogan_description_hideable: "Acest lucru este afișat în browsere, motoarele de căutare și rețelele sociale. De asemenea, îl puteți afișa pe pagina de pornire a pieței dvs. pentru utilizatorii care nu sunt conectați. %{see_how_it_looks_like}."
         community_description: "Descrierea Marketplace-ului"
-        community_description_display: ~
+        community_description_display: "Afișați descrierea în pagina de pornire sau în pagina de destinație personalizată"
         edit_community_description_description: "Aceasta apare in pagina de start a marketplace-ului pentru utilizatorii care nu s-au autentificat. %{see_how_it_looks_like}."
-        edit_community_description_description_hideable: ~
+        edit_community_description_description_hideable: "Acest lucru este afișat în browsere, motoarele de căutare și rețelele sociale. De asemenea, îl puteți afișa pe pagina de pornire a pieței dvs. pentru utilizatorii care nu sunt conectați. %{see_how_it_looks_like}."
         community_search_placeholder: "Căutați textul de ajutor"
         edit_community_search_placeholder_description: "Acesta este afișat pe pagina de pornire a marketplace ca text substituent în bara de căutare. %{see_how_it_looks_like}."
         private_community_homepage_content: "Continutul paginii de start a marketplace-ului privat"
@@ -473,20 +473,20 @@ ro:
         export_all_as_csv: "Exportă tot in formatul CSV"
         processing_export: "Se procesează exportul în CSV..."
         transactions: Tranzactii
-        search_by_title_parties: ~
-        search: ~
-        reset_search: ~
+        search_by_title_parties: "Căutați titlul tranzacției sau părțile implicate"
+        search: Căutare
+        reset_search: "Arata tot"
         status_filter:
-          all: ~
-          selected: ~
-          selected_js: ~
+          all: "Toate stările"
+          selected: "Stări selectate: %{count}"
+          selected_js: "Stări selectate:"
           free: ~
-          confirmed: ~
+          confirmed: Efectuat
           paid: Plătit
-          canceled: ~
+          canceled: Anulat
           disputed: Contestată
-          preauthorized: ~
-          rejected: ~
+          preauthorized: Preautorizat
+          rejected: Respins
           payment_intent_requires_action: ~
           payment_intent_action_expired: ~
           refunded: ~
@@ -558,8 +558,8 @@ ro:
           other_party: Vânzător
         participants: "Conversație: %{starter} cu %{author}"
         profile: "Profilul lui %{author}"
-        search_by_keyword: ~
-        search: ~
+        search_by_keyword: "Căutați un nume, un e-mail sau un cuvânt cheie"
+        search: Căutare
         reset_search: ~
         for_keyword: ~
       testimonials:
@@ -617,17 +617,17 @@ ro:
           date_sent: "Data expedierii"
       listings:
         listings: Listări
-        search_by_title_author_category: ~
-        search: ~
-        reset_search: ~
+        search_by_title_author_category: "Căutați un titlu de listă, un autor sau un nume de categorie"
+        search: Căutare
+        reset_search: "Arata tot"
         export_all_as_csv: ~
         processing_export: ~
         status:
-          all: ~
-          selected_js: ~
-          open: ~
-          closed: ~
-          expired: ~
+          all: "Toate stările"
+          selected_js: "Stări selectate:"
+          open: Deschis
+          closed: Închis
+          expired: Expirat
           approval_pending: ~
           approval_rejected: ~
         headers:
@@ -652,14 +652,14 @@ ro:
         user_fields: "Câmpuri de utilizator"
       footer:
         footer: ~
-        offer_pro: ~
-        upgrade_plan_link: ~
+        offer_pro: "Configurați și eliminați toate mărcile Sharetribe din subsolul pieței dvs. cu % {upgrade_pro_plan_link}."
+        upgrade_plan_link: "trecerea la planul Pro sau la o versiune superioară"
         menu_links: ~
-        language: ~
-        title: ~
-        url: ~
+        language: Limba
+        title: Titlu
+        url: URL
         add: ~
-        save: ~
+        save: "Salvează setările"
         footer_style: ~
         footer_copyright: ~
         footer_enabled: ~
@@ -1367,7 +1367,7 @@ ro:
       message_content_not_available: "Mesajul nu este disponibil"
     message:
       accepted_request: "a acceptat cererea"
-      received_payment: "Rezervare acceptata, plata de %{sum} a fost primita. "
+      received_payment: ~
       received_payment_wo_sum: ~
       accepted_offer: "a acceptat oferta"
       rejected_request: "a refuzat cererea, a anulat plata"
@@ -1377,10 +1377,10 @@ ro:
       canceled_request: "a anulat comanda"
       canceled_offer: "a anulat oferta"
       paid: "plătit %{sum}"
-      payment_preauthorized: "Plata autorizata: %{sum}"
-      payment_preauthorized_wo_sum: ~
+      payment_preauthorized: ~
+      payment_preauthorized_wo_sum: "Plata autorizata"
       stripe:
-        held_payment: "Plata a fost procesată. Suma de %{sum} este reținută de %{service_name} până când rezervarea va fi finalizată."
+        held_payment: ~
         held_payment_wo_sum: ~
         confirmed_request: "Rezervarea a fost finalizată. Plata a fost transferată către contul bancar al lui %{author_name} și va fi decontată în termen de 7 zile."
       canceled_the_order: ~
@@ -1649,7 +1649,7 @@ ro:
       shipping_total: "Livrare:"
       product: "Produs:"
       price_payer_paid: "Preț plătit de %{payer_full_name}:"
-      subtotal: ~
+      subtotal: "Subtotal:"
       service_fee: "Comision %{service_name}:"
       buyer_service_fee: ~
       you_will_get: "Total:"
@@ -1810,12 +1810,12 @@ ro:
     listing_approved:
       subject: "Echipa %{community} ti-a aprobat listarea \"%{listing_title}\""
       listing_has_been_approved: "Avem vesti bune! Listarea ta \"%{listing_title}\" a fost evaluata si aprobata de catre echipa %{community}."
-      view_the_listing: ~
+      view_the_listing: "Vizualizare anunt"
     listing_rejected:
       subject: "Echipa %{community} nu ti-a aprobat listarea \"%{listing_title}\""
       listing_has_been_rejected: "Din nefericire, dupa o evaluare atenta, echipa %{community} nu ti-a aprobat listarea \"%{listing_title}\". Poti sa %{contact_link} ca sa afli motivul sau poti sa editezi listarea si sa o retrimiti spre evaluare."
       contact_link: "contactează echipa %{community}"
-      edit_the_listing: ~
+      edit_the_listing: "Editeaza anuntul"
     edited_listing_submited_for_review:
       subject: ~
       there_is_a_edited_listing_to_review: ~
@@ -1938,7 +1938,7 @@ ro:
       after: "trebuie să fie după %{restriction}"
       on_or_after: "trebuie sa fie pe sau dupa %{restriction}"
       positive_number: "Adaugă un număr:"
-      from_must_be_less_than_till: ~
+      from_must_be_less_than_till: "„Ora de începere” trebuie să fie mai mică decât „Ora de încheiere”"
       section_with_this_id_already_exists: ~
       listing_with_this_id_does_not_exist: ~
       presence: ~

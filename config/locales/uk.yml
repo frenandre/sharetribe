@@ -1376,7 +1376,7 @@ uk:
       message_content_not_available: "Вміст повідомлення недоступний"
     message:
       accepted_request: "прийняти запит"
-      received_payment: "прийняв запит, отримав платіж за %{sum}"
+      received_payment: ~
       received_payment_wo_sum: "запит прийнято, платіж отримано"
       accepted_offer: "прийняти пропозицію"
       rejected_request: "запит відхилений, відмова від оплати"
@@ -1386,11 +1386,11 @@ uk:
       canceled_request: "відміна замовлення"
       canceled_offer: "відміна пропозиції"
       paid: "оплачено %{sum}"
-      payment_preauthorized: "Платіж авторизовано: %{sum}"
+      payment_preauthorized: ~
       payment_preauthorized_wo_sum: "Оплату виконано успішно"
       stripe:
-        held_payment: "Прийняв запит. Платіж на %{sum} утримується%{service_name} доти, доки замовлення не буде позначено як виконане."
-        held_payment_wo_sum: "Запит прийнято. Платіж утримується%{service_name} доти, доки замовлення не буде позначено як виконане."
+        held_payment: ~
+        held_payment_wo_sum: ~
         confirmed_request: "Позначено замовлення як виконане. Тепер платіж переведено на банківський рахунок%{author_name} або буде переведено найближчим часом."
       canceled_the_order: "Замовлення оскаржене. Команда %{service_name} сповіщена."
       marked_as_refunded: "Помічено як \"Повернення коштів\""

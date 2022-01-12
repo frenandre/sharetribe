@@ -1355,7 +1355,7 @@ hu:
       message_content_not_available: "Üzenet tartalom nem elérhető"
     message:
       accepted_request: "ajánlat elfogadva"
-      received_payment: "a felkérés elfogadva, %{sum} összegű átutalás megérkezett"
+      received_payment: ~
       received_payment_wo_sum: "Kérés elfogadva, az átutalás megérkezett"
       accepted_offer: "Ajánlat elfogadva"
       rejected_request: "az ajánlat elutasítva, az utalás törölve"
@@ -1365,11 +1365,11 @@ hu:
       canceled_request: "a rendelés törölve"
       canceled_offer: "Ajánlat törlése"
       paid: "Fizetve %{sum}"
-      payment_preauthorized: "Fizetés engedélyezve: %{sum}"
+      payment_preauthorized: ~
       payment_preauthorized_wo_sum: "Fizetés engedélyezett"
       stripe:
-        held_payment: "Kérés elfogadva. A %{sum} összeg a  %{service_name} -nél marad, amíg a megrendelés nincs teljesítve."
-        held_payment_wo_sum: "Kérés elfogadva. A fizetés a  %{service_name} -nél marad, amíg a megrendelés nincs teljesítettként jelölve."
+        held_payment: ~
+        held_payment_wo_sum: ~
         confirmed_request: "A rendelés teljesítettnek jelölve. Az összeg átutalása megtörtént %{author_name}  bankszámlájára vagy hamarosan átutalásra kerül."
       canceled_the_order: "Reklamáció a rendeléssel kapcsolatban. A %{service_name} csapat kapott erről értesítést."
       marked_as_refunded: "Visszatérítettként megjelölve"
@@ -3209,7 +3209,7 @@ hu:
     stripe_account_pending_verification_info: "Erre a feladatra adj egy kis időt, de később gyere vissza és ellenőrizd, hogy minden rendben van-e."
     form_new:
       need_info: "Ahhoz, hogy az eladott áru értékét át tudjuk majd utalni neked, szügségünk lesz néhány plusz információra."
-      select_country: "Válasszon országot..."
+      select_country: "Válassz országot..."
       legal_name: "Hivatalos név"
       first_name: Keresztnév
       last_name: Vezetéknév

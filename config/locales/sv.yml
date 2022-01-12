@@ -1358,7 +1358,7 @@ sv:
       message_content_not_available: "Meddelandets innehåll är inte tillgängligt"
     message:
       accepted_request: "accepterade förfrågan"
-      received_payment: "accepterade förfrågan, mottog betalningen för %{sum}"
+      received_payment: ~
       received_payment_wo_sum: ~
       accepted_offer: "acceptera erbjudandet"
       rejected_request: "avslagit förfrågan, betalningen är avbruten"
@@ -1368,10 +1368,10 @@ sv:
       canceled_request: "avbröt förfrågan"
       canceled_offer: "avbröt erbjudandet"
       paid: "Betalt %{sum}"
-      payment_preauthorized: "Betalningen är auktoriserad: %{sum}"
+      payment_preauthorized: ~
       payment_preauthorized_wo_sum: ~
       stripe:
-        held_payment: "Accepterade förfrågan. Betalningen för %{sum} hålls av %{service_name} tills förfrågan har blivit markerad som slutförd."
+        held_payment: ~
         held_payment_wo_sum: ~
         confirmed_request: "Markerade förfrågan som slutförd. Betalningen har nu överförts till %{author_name} bankkonto eller kommer snart att överföras."
       canceled_the_order: ~

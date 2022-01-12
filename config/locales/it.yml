@@ -1331,7 +1331,7 @@ it:
       message_content_not_available: ~
     message:
       accepted_request: "Richiesta accettata."
-      received_payment: "Richiesta accettata. Ricevuto il pagamento di %{sum}"
+      received_payment: ~
       received_payment_wo_sum: ~
       accepted_offer: "Offerta accettata"
       rejected_request: "Richiesta respinta"
@@ -1341,10 +1341,10 @@ it:
       canceled_request: "Ordine cancellato"
       canceled_offer: "Offerta cancellata"
       paid: "pagati %{sum}"
-      payment_preauthorized: "Pagamento autorizzato: %{sum}"
+      payment_preauthorized: ~
       payment_preauthorized_wo_sum: "Pagamento autorizzato"
       stripe:
-        held_payment: "Richiesta accettata. Il pagamento di %{sum} è tenuto da %{service_name} finchè l'ordine non è contrassegnato come completato."
+        held_payment: ~
         held_payment_wo_sum: ~
         confirmed_request: "Contrassegnato l'ordine come completato. Il pagamento verrà ora trasferito al conto corrente di %{author_name}."
       canceled_the_order: ~

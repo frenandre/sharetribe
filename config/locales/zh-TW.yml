@@ -1345,7 +1345,7 @@ zh-TW:
       message_content_not_available: 消息內容不可用
     message:
       accepted_request: 已接受請求
-      received_payment: "接受了請求，收到了%{sum}"
+      received_payment: ~
       received_payment_wo_sum: ~
       accepted_offer: 已接受的邀請
       rejected_request: 已拒絕，取消的款項
@@ -1355,7 +1355,7 @@ zh-TW:
       canceled_request: 已取消訂單
       canceled_offer: 已取消請求
       paid: "支付了%{sum}"
-      payment_preauthorized: "授权支付:%{sum}"
+      payment_preauthorized: ~
       payment_preauthorized_wo_sum: ~
       stripe:
         held_payment: ~

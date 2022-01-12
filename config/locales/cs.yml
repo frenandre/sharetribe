@@ -1367,7 +1367,7 @@ cs:
       message_content_not_available: "Obsah zprávy není k dispozici"
     message:
       accepted_request: "přijatá žádost"
-      received_payment: "přijal požadavek, obdržel platbu za %{sum}"
+      received_payment: ~
       received_payment_wo_sum: "přijatá žádost, přijatá platba"
       accepted_offer: "přijatá nabídka"
       rejected_request: "odmítnutá žádost"
@@ -1377,11 +1377,11 @@ cs:
       canceled_request: "zrušená žádost"
       canceled_offer: "zrušená nabídka"
       paid: "zaplaceno %{sum}"
-      payment_preauthorized: "Platba schválena: %{sum}"
+      payment_preauthorized: ~
       payment_preauthorized_wo_sum: "Platba povolena"
       stripe:
-        held_payment: "Požadavek byl přijat. Platba za %{sum} je zadržována %{service_name}, dokud není objednávka označena jako kompletní."
-        held_payment_wo_sum: "Žádost byla přijata. Platba je zadržována %{service_name} dokud nebude objednávka označena jako dokončená."
+        held_payment: ~
+        held_payment_wo_sum: ~
         confirmed_request: "Objednávka byla označena jako dokončená. Platba byla nyní převedena na bankovní účet %{author_name}  nebo bude brzy převedena."
       canceled_the_order: "Sporná objednávka. %{service_name} tým byl informován."
       marked_as_refunded: "Označeno jako vrácené"

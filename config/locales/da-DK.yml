@@ -1350,7 +1350,7 @@ da-DK:
       message_content_not_available: "Besked indhold er ikke tilgængelig"
     message:
       accepted_request: "accepter anmodningen"
-      received_payment: "accepteret anmodningen, modtaget betaling for %{sum}"
+      received_payment: ~
       received_payment_wo_sum: ~
       accepted_offer: "accepter tilbudet"
       rejected_request: "afvis anmodningen"
@@ -1360,10 +1360,10 @@ da-DK:
       canceled_request: "afvis anmodningen"
       canceled_offer: "afvis tilbudet"
       paid: "betalt %{sum}"
-      payment_preauthorized: "Betaling godkendt: %{sum}"
+      payment_preauthorized: ~
       payment_preauthorized_wo_sum: ~
       stripe:
-        held_payment: "Accepteret anmodningen. Betalingen på %{sum} tilbageholdes af %{service_name} indtil ordren er blevet markeret som gennemført."
+        held_payment: ~
         held_payment_wo_sum: ~
         confirmed_request: "Markeret ordren som gennemført. Betalingen er nu blevet overført til %{author_name} konto eller vil blive overført snarrest."
       canceled_the_order: ~

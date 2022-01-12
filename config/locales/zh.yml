@@ -1351,7 +1351,7 @@ zh:
       canceled_request: 已取消请求
       canceled_offer: 已取消宝贝
       paid: "支付了%{sum}"
-      payment_preauthorized: "授权支付:%{sum}"
+      payment_preauthorized: ~
       payment_preauthorized_wo_sum: ~
       stripe:
         held_payment: ~

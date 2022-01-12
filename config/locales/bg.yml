@@ -1358,7 +1358,7 @@ bg:
       message_content_not_available: "Съдържанието на съобщението не може да бъде показано"
     message:
       accepted_request: "прие заявката"
-      received_payment: "заявката е приета, получихте плащане на стойност %{sum}"
+      received_payment: ~
       received_payment_wo_sum: "прие заявката, получи плащането"
       accepted_offer: "прие офертата"
       rejected_request: "отхвърли заявката, отмени плащането"
@@ -1368,11 +1368,11 @@ bg:
       canceled_request: "отмени поръчката"
       canceled_offer: "отмени офертата"
       paid: "плати %{sum}"
-      payment_preauthorized: "Плащането е позволено:%{sum}"
+      payment_preauthorized: ~
       payment_preauthorized_wo_sum: "Плащането е разрешено"
       stripe:
-        held_payment: "Поръчката е приета. Плащането от %{sum} е задържано от %{service_name}  докато поръчката не бъде отбелязана като завършена."
-        held_payment_wo_sum: "Искането е прието. Плащането е задържано от %{service_name} докато поръчката не се маркира като завършена."
+        held_payment: ~
+        held_payment_wo_sum: ~
         confirmed_request: "Поръчката е отбелязана като завършена. Плащането е изпратено, или ще бъде направено скоро, до банковата сметка на %{author_name}"
       canceled_the_order: "Поръчката е оспорена. Екипът на %{service_name} бе уведомен."
       marked_as_refunded: "Отбелязано като 'възстановена сума'"

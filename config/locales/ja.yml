@@ -1347,7 +1347,7 @@ ja:
       message_content_not_available: メッセージ・コンテンツが閲覧できません。
     message:
       accepted_request: リクエストを受け入れました
-      received_payment: "リクエストを受け入れ、%{sum} のお支払いを確認できました"
+      received_payment: ~
       received_payment_wo_sum: リクエストを受け入れ、お支払いを確認できました
       accepted_offer: 受諾されたオファー
       rejected_request: リクエストにお応えすることができませんでした。お支払い手続きはキャンセルされました。
@@ -1357,11 +1357,11 @@ ja:
       canceled_request: リクエストはキャンセルされました
       canceled_offer: キャンセルされたオファー
       paid: "%{sum}をお支払いしました"
-      payment_preauthorized: "%{sum}のお支払い手続きが完了しました"
+      payment_preauthorized: ~
       payment_preauthorized_wo_sum: お支払い手続きが完了しました
       stripe:
-        held_payment: "リクエストを受け入れました。取引が完了としてマークされるまで%{sum} の支払いは%{service_name} により保留されています。"
-        held_payment_wo_sum: "リクエストを受け入れました。取引が完了としてマークされるまで支払いは%{service_name} により保留されています。"
+        held_payment: ~
+        held_payment_wo_sum: ~
         confirmed_request: "お取引が正常に完了しました。代金は現在%{author_name} の銀行口座へ振り込み手続き中、もしくは今後振り込み手続きが行われます。"
       canceled_the_order: "注文はキャンセルされました。%{service_name} 事務局に通知されました。"
       marked_as_refunded: 返金済みとしてマークする

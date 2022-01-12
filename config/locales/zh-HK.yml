@@ -1341,7 +1341,7 @@ zh-HK:
       message_content_not_available: ~
     message:
       accepted_request: 已接受請求
-      received_payment: "接受請求，已收取款項%{sum}"
+      received_payment: ~
       received_payment_wo_sum: ~
       accepted_offer: 已接納貨品
       rejected_request: 拒絕請求，取消付款
@@ -1351,7 +1351,7 @@ zh-HK:
       canceled_request: 已取消請求
       canceled_offer: 已取消
       paid: "已支付%{sum}"
-      payment_preauthorized: "已授權款項：%{sum}"
+      payment_preauthorized: ~
       payment_preauthorized_wo_sum: ~
       stripe:
         held_payment: ~

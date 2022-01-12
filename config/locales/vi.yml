@@ -1347,7 +1347,7 @@ vi:
       message_content_not_available: "Nội dung tin nhắn không thể hiển thị"
     message:
       accepted_request: ~
-      received_payment: "Chấp nhận yêu cầu, đã nhận được thanh toán cho %{sum}"
+      received_payment: ~
       received_payment_wo_sum: ~
       accepted_offer: "đã chấp nhận yêu cầu"
       rejected_request: "đã từ chối yêu cầu và hủy thanh toán"
@@ -1357,7 +1357,7 @@ vi:
       canceled_request: ~
       canceled_offer: "đã hủy đề nghị"
       paid: "Thanh toán %{sum}"
-      payment_preauthorized: "Thanh toán đã được cho phép: %{sum}"
+      payment_preauthorized: ~
       payment_preauthorized_wo_sum: ~
       stripe:
         held_payment: ~

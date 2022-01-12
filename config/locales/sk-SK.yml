@@ -1367,7 +1367,7 @@ sk-SK:
       message_content_not_available: "Obsah správy nie je k dispozícii."
     message:
       accepted_request: "prijal žiadosť"
-      received_payment: "prijal žiadosť, dostal platbu celkovo %{sum}"
+      received_payment: ~
       received_payment_wo_sum: "prijal žiadosť, dostal platbu"
       accepted_offer: "prijal ponuku"
       rejected_request: "zamietol žiadosť, zrušil platbu"
@@ -1377,11 +1377,11 @@ sk-SK:
       canceled_request: "zrušil objednávku"
       canceled_offer: "zrušil ponuku"
       paid: "zaplatil %{sum}"
-      payment_preauthorized: "Platba schválená: %{sum}"
+      payment_preauthorized: ~
       payment_preauthorized_wo_sum: "Platba povolená"
       stripe:
-        held_payment: "Žiadosť bola prijatá. Platba za %{sum} je zadržaná %{service_name}, kým nie je objednávka označená ako dokončená."
-        held_payment_wo_sum: "Prijatá žiadosť. Platba sa pozastaví prostredníctvom %{service_name}, kým sa objednávka nezmení ako dokončená."
+        held_payment: ~
+        held_payment_wo_sum: ~
         confirmed_request: "Objednávka bola označená ako dokončená. Platba bola teraz prevedená na bankový účet %{author_name} alebo bude čoskoro prevedená."
       canceled_the_order: "Sporná objednávka. %{service_name} bol informovaný."
       marked_as_refunded: "Označiť ako vrátené"

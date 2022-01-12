@@ -1358,7 +1358,7 @@ et:
       message_content_not_available: "Sõnumi sisu pole saadaval"
     message:
       accepted_request: "aktsepteeris tehingu."
-      received_payment: "võttis taotluse vastu, laekus %{sum}"
+      received_payment: ~
       received_payment_wo_sum: "võttis taotluse vastu, laekus makse"
       accepted_offer: "Taotlus aktsepteeritud."
       rejected_request: "Taotlus tagasi lükatud, makse tühistatud."
@@ -1368,11 +1368,11 @@ et:
       canceled_request: "tellimus tühistatud"
       canceled_offer: "pakkumine tühistatud"
       paid: "makstud %{sum}"
-      payment_preauthorized: "Tasumine kinnitatud: %{sum}"
+      payment_preauthorized: ~
       payment_preauthorized_wo_sum: "Makse on lubatud"
       stripe:
-        held_payment: "Võttis taotluse vastu. Tehingu summa %{sum} hoiab kinni %{service_name} kuni tellimus märgitakse täidetuks."
-        held_payment_wo_sum: "Võttis taotluse vastu. %{service_name} hoiab makset kinni, kuni tellimus märgitakse täidetuks."
+        held_payment: ~
+        held_payment_wo_sum: ~
         confirmed_request: "Tellimus märgiti täidetuks. Makse kantakse peagi %{author_name} pangakontole."
       canceled_the_order: "Korraldus vaidlustati. Meeskonda %{service_name} on teavitatud."
       marked_as_refunded: "Märgitakse tagastatuks"

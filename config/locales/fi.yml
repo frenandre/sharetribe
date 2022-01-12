@@ -1358,7 +1358,7 @@ fi:
       message_content_not_available: "Viestin sisältöä ei voida näyttää"
     message:
       accepted_request: "hyväksyi pyynnön"
-      received_payment: "hyväksyi pyynnön, otti vastaan maksun %{sum}"
+      received_payment: ~
       received_payment_wo_sum: "hyväksyi pyynnön, otti vastaan maksun"
       accepted_offer: "hyväksyi tarjouksen"
       rejected_request: "hylkäsi pyynnön, perui maksun"
@@ -1368,11 +1368,11 @@ fi:
       canceled_request: "peruutti pyynnön"
       canceled_offer: "peruutti tarjouksen"
       paid: "maksoi %{sum}"
-      payment_preauthorized: "Katevaraus tehty: %{sum}"
+      payment_preauthorized: ~
       payment_preauthorized_wo_sum: "Katevaraus tehty"
       stripe:
-        held_payment: "Hyväksyi pyynnön. Palvelu %{service_name} pidättää maksun %{sum}, kunnes tilaus on merkitty toteutuneeksi."
-        held_payment_wo_sum: "Pyyntö hyväksytty. %{service_name} pidättää maksun, kunnes tilaus on merkitty toteutuneeksi."
+        held_payment: ~
+        held_payment_wo_sum: ~
         confirmed_request: "Merkitsi tilauksen toteutuneeksi. Maksu on nyt siirretty käyttäjän %{author_name} pankkitilille, tai se siirretään pian."
       canceled_the_order: "Tilaus riitautettu. %{service_name} -palvelun tiimille on lähetetty ilmoitus."
       marked_as_refunded: "Merkitty takaisinmaksetuksi"

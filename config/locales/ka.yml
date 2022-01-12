@@ -1268,7 +1268,7 @@ ka:
       title: ~
       stripe: ~
       paypal: ~
-      info: ~
+      info: "%{service_name} -ში გადახდები მუშავდება ქვემოთ ჩამოთვლილი გადახდის კარიბჭით. %{service_name}  დააკისრებს საკომისიოს გადახდის კარიბჭის მიხედვით. გადახდის კარიბჭეს შეუძლია ასევე დააკისროს საკომისიო თითოეული გადახდისთვის, როგორც ეს აღწერილია ქვემოთ."
     paypal_fee_info:
       title: "PayPal-ით გადახდის საფასური"
       body_text: "PayPal არიცხავს გადახდის საფასურს ყოველი გადახდიდან. ეს გადასახადი მერყეობს 2%-დან 5%-მდე მთლიანი გაყიდული ფასიდან, დამოკიდებულია თვიური გაყიდვების მოცულობიდან და გამყიდველის ქვეყნიდან გამომდინარე. ზოგადად, ადგილობრივ გაყიდვებს აქვს უფრო დაბალი გადასახადი ვიდრე საერთაშორისოებს და მაღალი თვიური გაყიდვები გაძლევს ფასდაკლებას გადასახადზე. თქვენ შეგიძლიათ ზუსტი გადასახადი ნახოთ PayPal-ის ანგარიშზე შესვლით და %{link_to_paypal}-ზე გადასვლით. ყოველი გაყიდვის შემდეგ მიიღებთ საფასურს რომელზეც ეწერება ზუსტი რაოდენობა."
@@ -1341,7 +1341,7 @@ ka:
       message_content_not_available: "მესიჯის შიგთავსი მიუწვდომელია"
     message:
       accepted_request: "მოთხოვნა დადასტურდა"
-      received_payment: "მოთხოვნის დადასტურება, გადახდის მიღება %{sum}-სთვის"
+      received_payment: ~
       received_payment_wo_sum: ~
       accepted_offer: "დაადასტურა შეთავაზება"
       rejected_request: "მოთხოვნა გაუქმდა, გადახდა გაუქმებულია"
@@ -1351,7 +1351,7 @@ ka:
       canceled_request: "გააუქმა შეკვეთა"
       canceled_offer: "გააუქმა შეთავაზება"
       paid: "გადახდილია %{sum}"
-      payment_preauthorized: "ავტორიზებული გადახდა: %{sum}"
+      payment_preauthorized: ~
       payment_preauthorized_wo_sum: ~
       stripe:
         held_payment: ~
@@ -2413,8 +2413,8 @@ ka:
         after_service_fee_you_will_get: "%{service_name}-ს და გადახდის პროცესორის საფასურის შემდგომ თქვენ მიიღებთ %{sum_with_currency}"
         no_service_fee_you_will_get_paypal_text: "%{paypal_fee_info_link} დაიქვითება ფასიდან."
         no_service_fee_you_will_get_payment_text: ~
-        after_service_fee_you_will_get_payment_text: ~
-        payment_fee_info_link_text: ~
+        after_service_fee_you_will_get_payment_text: "როდესაც ვინმე შეკვეთას გააკეთებს, %{payment_fee_info_link} თქვენ მიიღებთ ამ თანხას მინუს"
+        payment_fee_info_link_text: "%{service_name} საკომისიო და გადახდის დამუშავების საკომისიო"
         delivery: "მიტანის მეთოდი"
         shipping: "მიტანის სერვისი:"
         shipping_price: "ტრანსპორტირების გადასახადი"
@@ -2818,7 +2818,7 @@ ka:
       account_creation_link_text: "დააჭირეთ აქ"
       cancle_facebook_connect: "თუ თქვენ არ გსურთ ამ ანგარიშის მიბმა, თქვენ შეგიძლიათ %{cancel_link}."
       facebook_cancel_link_text: გაუქმება
-      log_in_with_your_provider_account: ~
+      log_in_with_your_provider_account: "შედით თქვენი %{provider} ანგარიშით"
       or_sign_up_with_your_username: "ან თქვენი მომხმარებლის სახელით, ან ელ. ფოსტით:"
       we_will_not_post_without_asking_you: "ჩვენ არასდროს დავპოსტავთ Facebookზე კითხვის გარეშე"
     password_forgotten:

@@ -1339,7 +1339,7 @@ ar:
       message_content_not_available: "محتوى الرسالة غير متوفر"
     message:
       accepted_request: "قَبِل الطلب"
-      received_payment: "‎%{sum}‎ قبل الطلب وتم استقبال دفعة بقيمة"
+      received_payment: ~
       received_payment_wo_sum: ~
       accepted_offer: "قَبِل العرض"
       rejected_request: "رفض الطلب، وألغى عملية الشراء"

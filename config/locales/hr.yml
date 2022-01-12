@@ -1367,7 +1367,7 @@ hr:
       message_content_not_available: "Sadržaj poruke nije dostupan"
     message:
       accepted_request: "Prihvatio zahtjev"
-      received_payment: "Prihvatite zahtjev, prihvaćena uplata %{sum} "
+      received_payment: ~
       received_payment_wo_sum: "zahtjev prihvaćen, uplata zaprimljena"
       accepted_offer: "prihvatili ponudu"
       rejected_request: "Zahtjev odbijen, Plaćanje je poništeno"
@@ -1377,11 +1377,11 @@ hr:
       canceled_request: "Otkazao je narudžbu"
       canceled_offer: "otkazali ponudu"
       paid: "plaćeno %{sum}"
-      payment_preauthorized: "Uplata autorizirana: %{sum}"
+      payment_preauthorized: ~
       payment_preauthorized_wo_sum: "Plaćanje autorizirano"
       stripe:
-        held_payment: "Zahtjev prihvaćen. Uplaćeni iznos za %{sum} je zadržan od strane %{service_name} sve dok narudžba nije označena kao izvršena."
-        held_payment_wo_sum: "Zahtjev prihvaćen. Uplata je zadržana pri %{service_name} sve dok se narudžba ne označi kao završena."
+        held_payment: ~
+        held_payment_wo_sum: ~
         confirmed_request: "Narudžba je označena kao izvršena. Uplaćeni iznos je sada prebačen ili će biti prebačen uskoro na bankovni račun od %{author_name}."
       canceled_the_order: ~
       marked_as_refunded: ~

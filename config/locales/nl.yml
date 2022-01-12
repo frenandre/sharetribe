@@ -1361,7 +1361,7 @@ nl:
       message_content_not_available: "Inhoud bericht niet beschikbaar"
     message:
       accepted_request: "heeft het verzoek aanvaard"
-      received_payment: "accepteerde het verzoek, ontving betaling voor %{sum}"
+      received_payment: ~
       received_payment_wo_sum: "Verzoek geaccepteerd, betaling ontvangen."
       accepted_offer: "heeft het voorstel aanvaard"
       rejected_request: "heeft het verzoek niet aanvaard, betaling geannuleerd"
@@ -1371,11 +1371,11 @@ nl:
       canceled_request: "heeft het verzoek geannuleerd"
       canceled_offer: "heeft het voorstel geannuleerd"
       paid: "betaald %{sum}"
-      payment_preauthorized: "Betaling gemachtigd: %{sum}"
+      payment_preauthorized: ~
       payment_preauthorized_wo_sum: "Betaling geautoriseerd"
       stripe:
-        held_payment: "Verzoek geaccepteerd. De betaling voor %{sum} wordt vastgehouden door %{service_name} totdat de bestelling als voltooid wordt gemarkeerd."
-        held_payment_wo_sum: "Verzoek geaccepteerd. Betaling wordt vastgehouden door %{service_name} totdat de bestelling als voltooid is gemarkeerd."
+        held_payment: ~
+        held_payment_wo_sum: ~
         confirmed_request: "Bestelling is gemarkeerd als voltooid. De betaling is nu of zal spoedig worden overgemaakt naar %{author_name}'s rekening."
       canceled_the_order: "Heeft de order aangevochten. Het %{service_name} team is hiervan op de hoogte gesteld."
       marked_as_refunded: "Gemarkeerd als teruggestort."
@@ -1775,7 +1775,7 @@ nl:
       has_posted_a_new_listing: "%{author_name} heeft een nieuwe advertentie toegevoegd:"
       you_are_receiving_this_because: "Je ontvangt dit bericht omdat je %{author_name} volgt."
       view_listing: "Bekijk %{title}"
-      cant_click: "Kun je niet op de button klikken? Hier is de link voor je gemakt:"
+      cant_click: "Kun je niet op de button klikken? Hier is de link voor je gemaakt:"
     new_ident_notification:
       subject: ~
       h1_body: ~

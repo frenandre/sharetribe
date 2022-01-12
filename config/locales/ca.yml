@@ -1358,7 +1358,7 @@ ca:
       message_content_not_available: "Contingut del missatge no disponible"
     message:
       accepted_request: "va acceptar la sol·licitud"
-      received_payment: "sol·licitud acceptada, pagament per la quantitat de %{sum} rebut"
+      received_payment: ~
       received_payment_wo_sum: "va acceptar la sol·licitud, va rebre el pagament"
       accepted_offer: "va acceptar l'oferta"
       rejected_request: "va rebutjar la sol·licitud, va cancel·lar el pagament"
@@ -1368,11 +1368,11 @@ ca:
       canceled_request: "va cancel·lar la comanda"
       canceled_offer: "va cancel·lar l'oferta"
       paid: "va pagar %{sum}"
-      payment_preauthorized: "Pagament autoritzat: %{sum}"
+      payment_preauthorized: ~
       payment_preauthorized_wo_sum: "Pagament autoritzat"
       stripe:
-        held_payment: "Ha acceptat la transacció. El pagament per %{sum} està essent guardat per %{service_name} fins que l'ordre sigui marcada com a completada."
-        held_payment_wo_sum: "Va acceptar la sol·licitud. El pagament es manté en %{service_name} fins que la comanda es marca com a finalitzada."
+        held_payment: ~
+        held_payment_wo_sum: ~
         confirmed_request: "Ha marcat l'ordre com a completada. Els diners han estat transferits al compte del banc de %{author_name} o seran transferits aviat."
       canceled_the_order: "Va disputar l'ordre. L'equip de %{service_name} ha estat notificat."
       marked_as_refunded: "Marcada com a reembolsada"

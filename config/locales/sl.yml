@@ -1323,7 +1323,7 @@ sl:
       message_content_not_available: ~
     message:
       accepted_request: ~
-      received_payment: "sprejeta zahteva, prejeto plačilo za %{sum}"
+      received_payment: ~
       received_payment_wo_sum: ~
       accepted_offer: ~
       rejected_request: ~

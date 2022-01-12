@@ -1353,7 +1353,7 @@ he-IL:
       message_content_not_available: "תוכן ההודעה לא זמין"
     message:
       accepted_request: "אישר את הבקשה"
-      received_payment: "אשר את הבקשה, קבל תשלום של‎%{sum}‎ "
+      received_payment: ~
       received_payment_wo_sum: "בקשה אושרה,תשלום התקבל"
       accepted_offer: "אישר את ההצעה"
       rejected_request: "דחה את הבקשה, התשלום בוטל"
@@ -1363,11 +1363,11 @@ he-IL:
       canceled_request: "ביטל את ההזמנה"
       canceled_offer: "ביטל את ההזמנה"
       paid: "שולם ‎%{sum}‎"
-      payment_preauthorized: "תשלום אושר:‎%{sum}‎ "
+      payment_preauthorized: ~
       payment_preauthorized_wo_sum: "תשלום אושר"
       stripe:
-        held_payment: "בקשה אושרה. תשלום עבור‎%{sum}‎  מוחזק ע''י ‎%{service_name}‎  עד שההזמנה סומנה כהושלמה."
-        held_payment_wo_sum: "בקשה אושרה, תשלום מוחזק ע''י ‎%{service_name}‎  עד אשר ההזמנה תסומן כהושלמה."
+        held_payment: ~
+        held_payment_wo_sum: ~
         confirmed_request: "הזמנה סומנה כהושלמה. התשלום יועבר כעת לחשבון הבנק של ‎%{author_name}‎ "
       canceled_the_order: ~
       marked_as_refunded: ~

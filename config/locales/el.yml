@@ -1358,7 +1358,7 @@ el:
       message_content_not_available: "Το περιεχόμενο του μηνύματος δεν είναι διαθέσιμο"
     message:
       accepted_request: "Το αίτημα έγινε αποδεκτό"
-      received_payment: "Αποδέχτηκε την αίτηση, έλαβε πληρωμή για %{sum} "
+      received_payment: ~
       received_payment_wo_sum: "αποδέχθηκε το αίτημα, έλαβε πληρωμή"
       accepted_offer: "δέχτηκε την προσφορά"
       rejected_request: "Το αίτημα απορρίφθηκε. Η πληρωμή ακυρώθηκε"
@@ -1368,11 +1368,11 @@ el:
       canceled_request: "Η παραγγελία ακυρώθηκε"
       canceled_offer: "ακύρωσε την προσφορά"
       paid: "πλήρωσε %{sum}"
-      payment_preauthorized: "Η πληρωμή εγκρίθηκε: %{sum} "
+      payment_preauthorized: ~
       payment_preauthorized_wo_sum: "Επιτρεπόμενη πληρωμή"
       stripe:
-        held_payment: "Αποδέχτηκε το αίτημα. Η πληρωμή για το %{sum} διατηρείται από %{service_name} μέχρι να επισημανθεί η παραγγελία ως ολοκληρωμένη."
-        held_payment_wo_sum: " Αποδέχτηκε το αίτημα. Η πληρωμή κρατείται από %{service_name} μέχρι να επισημανθεί η παραγγελία ως ολοκληρωμένη."
+        held_payment: ~
+        held_payment_wo_sum: ~
         confirmed_request: "Επισημάνετε την παραγγελία ως ολοκληρωμένη. Η πληρωμή έχει μεταφερθεί στον τραπεζικό λογαριασμό %{author_name} ή θα μεταφερθεί σύντομα."
       canceled_the_order: "Αμφισβήτησε την παραγγελία. Η ομάδα %{service_name} έχει ειδοποιηθεί."
       marked_as_refunded: "Επισημάνθηκε ως επιστροφή χρημάτων"

@@ -1327,7 +1327,7 @@ lv:
       message_content_not_available: "Ziņas saturs nav pieejams"
     message:
       accepted_request: "apstiprināja  pieprasījumu"
-      received_payment: "apstiprināja pieprasījumu, saņēma maksājumu par %{sum}"
+      received_payment: ~
       received_payment_wo_sum: "pieņēma pieprasījumu, saņēma maksājumu"
       accepted_offer: "piedāvājumu pieņēma"
       rejected_request: "noraidīja pieprasījumu, atcēla maksājumu"
@@ -1337,11 +1337,11 @@ lv:
       canceled_request: "atcēla pasūtījumu"
       canceled_offer: "atcēla piedāvājumu"
       paid: "apmaksāts %{sum}"
-      payment_preauthorized: "Maksājums atļauts: %{sum}"
+      payment_preauthorized: ~
       payment_preauthorized_wo_sum: "Maksājums autorizēts"
       stripe:
-        held_payment: "Apstiprināja pieprasījumu. %{service_name} pieturēs maksājumu par summu %{sum} līdz pasūtījums būs atzīmēts kā izpildīts."
-        held_payment_wo_sum: "Pieņēma pieprasījumu. %{service_name} aizturēs maksājumu, līdz pasūtījums tiks atzīmēts kā pabeigts."
+        held_payment: ~
+        held_payment_wo_sum: ~
         confirmed_request: "Pasūtījums atzīmēts kā izpildīts. Maksājums ir pārskaitīts uz %{author_name} bankas kontu vai arī drīz tiks pārskaitīts."
       canceled_the_order: ~
       marked_as_refunded: ~

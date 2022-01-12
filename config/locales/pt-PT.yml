@@ -1351,10 +1351,10 @@ pt-PT:
       canceled_request: "cancelou a ordem"
       canceled_offer: "cancelou a oferta"
       paid: "pagou %{sum}"
-      payment_preauthorized: "Pagamento autorizado: %{sum}"
+      payment_preauthorized: ~
       payment_preauthorized_wo_sum: ~
       stripe:
-        held_payment: "O pedido foi aceite. O pagamento de %{sum} está a ser retido por %{service_name} até que você marque o pedido como concluído."
+        held_payment: ~
         held_payment_wo_sum: ~
         confirmed_request: "O pedido foi marcado como concluído. O pagamento já foi transferido para a conta de %{author_name} ou será transferido brevemente."
       canceled_the_order: ~

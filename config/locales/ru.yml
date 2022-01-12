@@ -1374,7 +1374,7 @@ ru:
       message_content_not_available: "Содержимое сообщения недоступно"
     message:
       accepted_request: "запрос принят"
-      received_payment: "запрос принят, получен платеж на сумму %{sum}"
+      received_payment: ~
       received_payment_wo_sum: "запрос принят, платеж получен"
       accepted_offer: "предложение принято"
       rejected_request: "запрос отклонен"
@@ -1384,11 +1384,11 @@ ru:
       canceled_request: "отменный запрос"
       canceled_offer: "отмененное предложение"
       paid: "оплачено %{sum}"
-      payment_preauthorized: "Оплата авторизована: %{sum}"
+      payment_preauthorized: ~
       payment_preauthorized_wo_sum: "Оплата выполнена успешно"
       stripe:
-        held_payment: "Принял запрос. Платеж на%{sum} удерживается%{service_name} до тех пор, пока заказ не будет помечен как выполненный."
-        held_payment_wo_sum: "Принял запрос. Платеж удерживается%{service_name} до тех пор, пока заказ не будет помечен как выполненный."
+        held_payment: ~
+        held_payment_wo_sum: ~
         confirmed_request: "Помечен заказ как выполненный. Теперь платеж переведен на банковский счет%{author_name} или будет переведен в ближайшее время."
       canceled_the_order: "Спорный заказ . Команда %{service_name} уведомлена."
       marked_as_refunded: "Помечено как \"возврат денег\""

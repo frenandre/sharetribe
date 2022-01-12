@@ -1358,7 +1358,7 @@ de:
       message_content_not_available: "Nachrichteninhalt nicht verfügbar"
     message:
       accepted_request: "Anfrage akzeptiert"
-      received_payment: "Hat die Anfrage angenommen und eine Zahlung in Höhe von %{sum} erhalten."
+      received_payment: ~
       received_payment_wo_sum: "hat die Anfrage angenommen, und Zahlung erhalten"
       accepted_offer: "Angebot akzeptieren"
       rejected_request: "Anfrage abgelehnt, Bezahlung widerrufen"
@@ -1368,11 +1368,11 @@ de:
       canceled_request: "Anfrage abgebrochen"
       canceled_offer: "Angebot abgebrochen"
       paid: "bezahlt %{sum}"
-      payment_preauthorized: "Zahlung wurde autorisiert: %{sum}"
+      payment_preauthorized: ~
       payment_preauthorized_wo_sum: "Zahlung erfolgreich"
       stripe:
-        held_payment: "Die Anfrage wurde akzeptiert. Die Zahlung in Höhe von %{sum} wird von %{service_name} verwahrt, bis der Auftrag als erledigt markiert wird."
-        held_payment_wo_sum: "Hat die Anfrage angenommen. Die Zahlung wird von %{service_name} verwahrt, bis der Auftrag als erledigt markiert wird."
+        held_payment: ~
+        held_payment_wo_sum: ~
         confirmed_request: "Hat den Auftrag als erledigt markiert. Die Zahlung wurde oder wird in Kürze auf das Bankkonto von %{author_name} transferiert."
       canceled_the_order: "Anfrage angefochten. Das Team von %{service_name} wurde kontaktiert."
       marked_as_refunded: "Als erstattet markiert"

@@ -1349,7 +1349,7 @@ ko:
       message_content_not_available: "메시지 내용을 사용할 수 없습니다."
     message:
       accepted_request: "요청이 승인되어졌습니다"
-      received_payment: "요청을 수락하였고, %{sum}에 대한 결제를 받았습니다."
+      received_payment: ~
       received_payment_wo_sum: ~
       accepted_offer: "제안이 승인되어졌습니다"
       rejected_request: "요청을 거절되고 결제가 취소되어졌습니다"
@@ -1359,10 +1359,10 @@ ko:
       canceled_request: "주문이 취소되어졌습니다"
       canceled_offer: "거래 취소"
       paid: "%{sum}이 결제되었습니다"
-      payment_preauthorized: "승인된 결제 : %{sum}"
+      payment_preauthorized: ~
       payment_preauthorized_wo_sum: "결제가 사전승인됨"
       stripe:
-        held_payment: "구매요청을 수락했습니다. 결제된 %{sum}는 구매자의 거래완료 확인이 있을때까지 %{service_name}에 보관됩니다."
+        held_payment: ~
         held_payment_wo_sum: ~
         confirmed_request: "거래 완료로 표시되었습니다. %{author_name}님의 계좌로 비용이 송금될 예정입니다."
       canceled_the_order: "분쟁중. %{service_name}에 통보 되었습니다."

@@ -1358,7 +1358,7 @@ fr:
       message_content_not_available: "Le contenu du message n'est pas disponible"
     message:
       accepted_request: "a accepté la demande"
-      received_payment: "a accepté la demande, a reçu le paiement de %{sum}"
+      received_payment: "a accepté la demande, a reçu le paiement"
       received_payment_wo_sum: "a accepté la demande, a reçu le paiement"
       accepted_offer: "a accepté l'offre"
       rejected_request: "a refusé la demande, a annulé le paiement"
@@ -1368,10 +1368,10 @@ fr:
       canceled_request: "A annulé la commande"
       canceled_offer: "a annulé l'offre"
       paid: "a payé %{sum}"
-      payment_preauthorized: "Paiement autorisé : %{sum}"
+      payment_preauthorized: "Paiement autorisé"
       payment_preauthorized_wo_sum: "Paiement autorisé"
       stripe:
-        held_payment: "A accepté la demande. Le paiement de %{sum} est retenu par %{service_name} jusqu'à ce que la commande soit marquée comme réalisée."
+        held_payment: "A accepté la demande. Le paiement est retenu par %{service_name} jusqu'à ce que la commande soit marquée comme réalisée."
         held_payment_wo_sum: "A accepté la demande. Le paiement est retenu par %{service_name} jusqu'à ce que la commande soit marquée comme réalisée."
         confirmed_request: "A marqué la commande comme réalisée. Le paiement a été transféré, ou le sera automatiquement très bientôt, sur le compte en banque de %{author_name}."
       canceled_the_order: "A contesté la commande. L'équipe %{service_name} a été prévenue."

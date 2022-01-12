@@ -1343,7 +1343,7 @@ th-TH:
       message_content_not_available: ~
     message:
       accepted_request: ตอบรับออเดอร์
-      received_payment: "ตอบรับออเดอร์แล้ว และได้รับเงินจำนวน %{sum} แล้ว"
+      received_payment: ~
       received_payment_wo_sum: ~
       accepted_offer: ยอมรับข้อเสนอ
       rejected_request: "ปฏิเสธคำขอ ยกเลิกการชำระเงิน"
@@ -1353,7 +1353,7 @@ th-TH:
       canceled_request: ยกเลิกการสั่งซื้อ
       canceled_offer: ยกเลิกข้อเสนอ
       paid: "ชำระเงิน %{sum}"
-      payment_preauthorized: "การชำระเงินได้รับอนุญาตแล้ว: %{sum}"
+      payment_preauthorized: ~
       payment_preauthorized_wo_sum: ~
       stripe:
         held_payment: ~

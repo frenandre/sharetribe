@@ -1362,7 +1362,7 @@ lt:
       message_content_not_available: "Pranešimo turinys nepasiekiamas"
     message:
       accepted_request: "sutiko su prašymu"
-      received_payment: "priėmė užklausą, gavo mokėjimą už %{sum}"
+      received_payment: ~
       received_payment_wo_sum: "priėmė prašymą, gavo mokėjimą"
       accepted_offer: "sutiko su pasiūlymu"
       rejected_request: "Atmetė prašymą, atšaukė mokėjimą"
@@ -1372,11 +1372,11 @@ lt:
       canceled_request: "atšaukė užsakymą"
       canceled_offer: "atšaukė pasiūlymą"
       paid: "sumokėjo %{sum}"
-      payment_preauthorized: "Mokėjimas patvirtintas:%{sum}"
+      payment_preauthorized: ~
       payment_preauthorized_wo_sum: "Mokėjimas autorizuotas"
       stripe:
-        held_payment: "Priėmė užklausą. Mokėjimas už %{sum} vyksta nuo %{service_name}, kol užsakymas bus pažymėtas kaip baigtas."
-        held_payment_wo_sum: "Priėmė užklausą. Mokėjimą laiko %{service_name}, kol užsakymas bus pažymėtas kaip baigtas."
+        held_payment: ~
+        held_payment_wo_sum: ~
         confirmed_request: "Užsakymas pažymėtas kaip baigtas. Mokėjimas pervestas į %{author_name} banko sąskaitą arba bus pervestas netrukus."
       canceled_the_order: "Užinčijo užsakymą. %{service_name} komanda buvo informuota."
       marked_as_refunded: "Pažymėta kaip grąžintas"

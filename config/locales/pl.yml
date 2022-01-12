@@ -1376,7 +1376,7 @@ pl:
       message_content_not_available: "Zawartość wiadomości jest niedostępna"
     message:
       accepted_request: "zapytanie zaakceptowane"
-      received_payment: "żądanie zaakceptowane, płatność %{sum} otrzymana"
+      received_payment: ~
       received_payment_wo_sum: "zaakceptował prośbę, otrzymał płatność"
       accepted_offer: "oferta zaakceptowana"
       rejected_request: "odrzucone zapytanie, anulowana płatność"
@@ -1386,11 +1386,11 @@ pl:
       canceled_request: "anulowano zamówienie"
       canceled_offer: "anulowano ofertę"
       paid: "zapłacono %{sum}"
-      payment_preauthorized: "Płatność zautoryzowana: %{sum}"
+      payment_preauthorized: ~
       payment_preauthorized_wo_sum: "Autoryzacja płatności"
       stripe:
-        held_payment: "Zaakceptuj zapytanie. Płatność dla kwoty %{sum} jest wstrzymana przez %{service_name} do momentu potwierdzenia, że usługa została wykonana."
-        held_payment_wo_sum: "Zapytanie zaakceptowane. Płatność jest wstrzymana przez %{service_name} do momentu kiedy zamówienie zostanie oznaczone jako zrealizowane."
+        held_payment: ~
+        held_payment_wo_sum: ~
         confirmed_request: "Oznacz usługę jako wykonaną. Płatność albo została w tej chwili przekazana na rachunek bankowy %{author_name} albo zostanie to zrobione niezwłocznie."
       canceled_the_order: "Oferta unieważniona. Zespół %{service_name} został powiadomiony."
       marked_as_refunded: "Oznacz jako zwrot pieniędzy"
@@ -1499,7 +1499,7 @@ pl:
     feedback_subject: ~
     feedback_body: ~
     unlogged_user: "Niezalogowany użytkownik"
-    anonymous_user: ~
+    anonymous_user: "Anonimowy użytkownik"
   community_memberships:
     access_denied:
       access_denied: "Brak dostępu"
