@@ -181,6 +181,7 @@ class Listing < ApplicationRecord
     # 5000 character max length validation to fail.
     # This could be more general helper function, if this is needed in other textareas.
     self.description = description.gsub("\r\n","\n") if self.description
+    self.category_old = category_important_text
   end
   validates_length_of :description, :maximum => 5000, :allow_nil => true
   validates_presence_of :category
@@ -394,4 +395,14 @@ class Listing < ApplicationRecord
     ids = listings.pluck(:id)
     ListingImage.where(listing_id: ids).destroy_all
   end
+
+  def category_important_text
+    text = self.category.important_text(:de)
+    if text.present?
+      it = self.category.important_text(:it)
+      it = self.category.display_name(:it) unless it.present?
+      text = "!#{text}!#{it}"
+    end
+    return text
+   end
 end

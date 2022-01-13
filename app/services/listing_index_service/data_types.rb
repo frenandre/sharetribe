@@ -77,6 +77,7 @@ module ListingIndexService::DataTypes
     [:unit_type], # TODO Symbol or string?
     [:quantity, :string], # This is outdated
     [:shape_name_tr_key, :string], # TODO is this mandatory?
+    [:category_text, :string],
     [:listing_shape_id, :fixnum, :optional], # This can be nil, if the listing shape was deleted
   )
 

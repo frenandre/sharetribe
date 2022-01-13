@@ -158,4 +158,13 @@ class Category < ApplicationRecord
   def self.find_by_url_or_id(url_or_id)
     self.find_by_url(url_or_id) || self.find_by_id(url_or_id)
   end
+
+  def display_text(locale)
+    TranslationCache.new(self, :translations).translate(locale, :text)
+   end
+
+  def important_text(locale)
+    text = display_text(locale)
+    return text.include?('!') ? text.split(/\s*!\s*/)[-1] : nil
+  end
 end

@@ -21,4 +21,13 @@ class CategoryTranslation < ApplicationRecord
   belongs_to :category, touch: true
 
   validates_presence_of :locale
+
+  def text
+    self.description ? self.description : self.name
+  end
+
+  def text=(text)
+    self.name = text.split(/!/)[0].strip
+    self.description = text
+  end
 end

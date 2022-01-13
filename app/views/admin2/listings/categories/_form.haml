@@ -12,7 +12,7 @@
           %span.language
             = locale_name
         .multiple-languages-input
-          = text_field_tag "category[translation_attributes][#{locale_value}][name]", category.display_name(locale_value), class: 'required form-control'
+          = text_field_tag "category[translation_attributes][#{locale_value}][text]", category.display_text(locale_value), class: 'required form-control'
 
 - if category.new_record?
   .form-group{style: 'margin-left:0;'}

@@ -15,6 +15,7 @@ module ListingIndexService::Search::Converters
       unit_type: l.unit_type,
       quantity: l.quantity,
       shape_name_tr_key: l.shape_name_tr_key,
+      category_text: l.category_old,
       listing_shape_id: l.listing_shape_id
     }.merge(meta)
       .merge(location_hash(l, includes))
