@@ -1,0 +1,29 @@
+body {
+    overflow-y: scroll;
+}
+
+.home>.wrapper {
+    padding-left : 0;
+    padding-right: 0;
+    max-width    : 95%;
+}
+
+@media(min-width: 1280px) {
+    .home>.wrapper>.row>.col-3 {
+        width: 16.66667%;
+    }
+
+    .home>.wrapper>.row>.col-9 {
+        width: 83.33333%;
+    }
+
+    .home-fluid-thumbnail-grid-item {
+        width: 20% !important;
+    }
+
+}
+
+.icon-with-text-container .text-part {
+    font-family: 'Proxima Soft', 'Source Sans Pro', helvetica, sans-serif;
+    font-size  : 1em;
+}
