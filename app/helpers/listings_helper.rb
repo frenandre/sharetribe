@@ -119,9 +119,10 @@ module ListingsHelper
   def shape_name(listing)
     if listing.category_text.present?
       text = listing.category_text.split(/!/)
-      I18n.locale == :it ? text[-1] : text[1]
+      text = I18n.locale == :it ? text[-1] : text[1]
+      return text.sub("²", t(listing.shape_name_tr_key))
     else
-      t(listing.shape_name_tr_key)
+      return t(listing.shape_name_tr_key)
     end
   end
 

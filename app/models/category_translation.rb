@@ -27,7 +27,7 @@ class CategoryTranslation < ApplicationRecord
   end
 
   def text=(text)
-    self.name = text.split(/!/)[0].strip
+    self.name = text.split(/\s*!\s*/)[0]
     self.description = text
   end
 end
