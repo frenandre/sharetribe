@@ -1628,7 +1628,7 @@ de:
       you_have_a_new_message: "Du hast eine neue Nachricht von %{sender_name} auf %{service_name}"
     new_message_v2:
       headline: "du hast eine Nachricht!"
-      reply: "Hier klicken um an %{sender} zu antworten"
+      reply: "Hier klicken um %{sender} zu antworten"
     new_payment:
       new_payment: "Du hast eine neue Zahlung erhalten"
       price_per_unit_type: "Preis pro %{unit_type}"
