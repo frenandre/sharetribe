@@ -39,7 +39,7 @@ Rails.application.configure do
   # If you have no front-end server that supports something like X-Sendfile,
   # just comment this out and Rails will serve the files
 
-  config.log_level = :info
+  config.log_level = :warn
   # Basic log config, for calls to Rails.logger.<level> { <message> }
   config.logger = ::Logger.new(STDOUT)
   # Formats log entries into: LEVEL MESSAGE
@@ -67,9 +67,9 @@ Rails.application.configure do
 
   config.after_initialize do
     ActiveRecord::Base.logger = Rails.logger.clone
-    ActiveRecord::Base.logger.level = Logger::INFO
+    ActiveRecord::Base.logger.level = Logger::WARN
     ActionMailer::Base.logger = Rails.logger.clone
-    ActionMailer::Base.logger.level = Logger::INFO
+    ActionMailer::Base.logger.level = Logger::WARN
   end
 
   # Prefer redis instead of memcached

@@ -13,6 +13,7 @@ Rails.application.configure do
   # To autoload MailPreview, uncomment this line
   # (this is a hack which is fixed properly in Rails 4)
   # config.action_view.cache_template_loading = false
+  config.log_level = :warn
 
   # Basic log config, for calls to Rails.logger.<level> { <message> }
   config.logger = ::Logger.new(STDOUT)
@@ -40,9 +41,9 @@ Rails.application.configure do
 
   config.after_initialize do
     ActiveRecord::Base.logger = Rails.logger.clone
-    ActiveRecord::Base.logger.level = Logger::DEBUG
+    ActiveRecord::Base.logger.level = Logger::WARN
     ActionMailer::Base.logger = Rails.logger.clone
-    ActionMailer::Base.logger.level = Logger::INFO
+    ActionMailer::Base.logger.level = Logger::WARN
   end
 
 
