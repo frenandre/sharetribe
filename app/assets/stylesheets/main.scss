@@ -307,12 +307,14 @@ ul {
 
 .icon-with-text-container {
   position: relative;
-  display: inline-block;
+  display: inline-block !important;
   margin-right: em(10);
   text-align: left;
   .icon-part {
     position: absolute;
     top: em(2);
+    width: em(16);
+    text-align: center;
   }
   .text-part {
     padding-left: em(23);
