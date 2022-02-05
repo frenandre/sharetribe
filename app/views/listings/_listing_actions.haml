@@ -153,3 +153,8 @@
               = icon_tag("mail", ["icon-part"])
               .text-part#add-to-updates-email-text{data: {:"action-loading" => t("listings.edit_links.show_in_updates_email_loading"), :"action-error" => t("listings.edit_links.show_in_updates_email_error"), :"action-success"=> t("listings.edit_links.show_in_updates_email_success")}}= t("listings.edit_links.show_in_updates_email")
 
+      .listing-view-admin-link
+        %a.action-link{href: abuse_alert_path(listing_id: @listing.id)}
+          .icon-with-text-container
+            = icon_tag("exclamation", ["icon-part"])
+            .text-part= t("alerts.message")

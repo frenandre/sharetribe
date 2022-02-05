@@ -1,0 +1,15 @@
+- content_for :title_header do
+  %h1= t("layouts.no_tribe.feedback")
+
+#new_alert_form.centered-section
+
+  - author_link = link_to(display_name, person_path(username: listing.author[:username]))
+  %p= t("alerts.listing_by", listing: link_to("#{listing[:title]}", listing_path(listing[:id])), author: author_link).html_safe
+
+  %h2= t("alerts.abuse_message")
+
+  = form_tag url_for(action: 'email'), method: :post do
+    = hidden_field_tag(:listing_id, listing[:id])
+    = text_area_tag(:message, nil, :class => "text_area")
+
+    = button_tag t("conversations.new.send_message"), :class => "send_button"

@@ -115,6 +115,9 @@ Rails.application.routes.draw do
   # Adds locale to every url right after the root path
   scope "(/:locale)", :constraints => { :locale => locale_matcher } do
 
+    get '/alerts/abuse' => "alerts#abuse", as: :abuse_alert
+    post '/alerts/email' => "alerts#email", as: :email_alert
+
     put '/mercury_update' => "mercury_update#update", :as => :mercury_update
 
     get "/transactions/op_status/:process_token" => "paypal_service/checkout_orders#paypal_op_status", as: :paypal_op_status

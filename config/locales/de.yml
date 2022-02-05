@@ -3378,3 +3378,8 @@ de:
     QC: Quebec
     SK: Saskatchewan
     YT: "Yukon Territory"
+  alerts:
+    message: "Eintrag melden"
+    you_must_log_in_to_send_an_alert: "Du musst dich bei %{service_name} anmelden, um eine Meldung zu senden."
+    listing_by: "%{listing} von %{author}"
+    abuse_message: "Missbrauch an Administrator melden"

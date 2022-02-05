@@ -171,7 +171,8 @@ ICON_MAP = {
       "pending" => "ss-clockwise",
       "minus" => "ss-hyphen",
       "trash" => "ss-trash",
-      "rocket" => "ss-rocket"
+      "rocket" => "ss-rocket",
+      "exclamation" => "ss-alert"
     },
     "font-awesome" => {
       "map" => "icon-map-marker",
@@ -294,6 +295,7 @@ ICON_MAP = {
       "pending" => "icon-time",
       "minus" => "icon-minus",
       "trash" => "icon-trash",
-      "rocket" => "icon-magic"
+      "rocket" => "icon-magic",
+      "exclamation" => "icon-exclamation"
     }
   }
