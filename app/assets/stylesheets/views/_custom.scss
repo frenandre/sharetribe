@@ -27,3 +27,7 @@ body {
     font-family: 'Proxima Soft', 'Source Sans Pro', helvetica, sans-serif;
     font-size  : 1em;
 }
+
+.fluid-thumbnail-grid-image-overlay {
+    background-image: linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.6));
+}
