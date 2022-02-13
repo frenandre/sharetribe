@@ -90,7 +90,7 @@ ka:
         transaction_agreement_checkbox_label_description: "ეს ტექსტი გამოჩნდება შემოწმების გრაფაში გადახდის ფორმასთან. მომხმარებელმა უნდა შეამოწმოს ეს ველი რომ გააგრძელოს გადახდა. მაგალითისთვის იქნება რაღაც დაახლოებით ამ ტექსტით \"ამ გრაფის მონიშვნით მე ვეთანხმები ხელშეკრულებას.\""
         transaction_agreement_text_header: "ხელშეკრულების ტექსტი"
         transaction_agreement_description: "ეს არის ამჟამინდელი ხელშეკრულების შიგთავსი, რომელიც მომხმარებლებმა უნდა დაადასტურონ. ხელშეკრულების შიგთავსი გამოიშლება, მაშინ როცა მომხმარებელი აჭერს \"%{read_more}\" ბმულს ხელშეკრულების იარლიყის გვეერდით"
-        terms_privacy_policy_and_static_content: ~
+        terms_privacy_policy_and_static_content: "პირობები, კონფიდენციალურობის პოლიტიკა და სტატიკური შინაარსი"
         terms_privacy_policy_and_static_content_infotext: ~
       edit_look_and_feel:
         edit_community_look_and_feel: "დაარედაქტირე ბაზარი \"%{community_name}\" შეხედე და შეიგრძენი"
@@ -264,7 +264,7 @@ ka:
         last_community_updates: "გთხოვთ დაიმახსოვრეთ, რომ წაშლის შემდეგ თქვენ და თქვენი ბაზარის მომხარებელმა შეიძლება ისევ მიიღოთ ბოლო ბაზრის განახლების წერილები. "
         you_will_be_redirected_to: "თქვენი ბაზრის წაშლის შემდეგ თქვენ გადამისამართდებით %{destination}-ზე. თქვენ აღარ გექნებათ წვდომა ბაზარზე."
         delete_this_marketplace: "წაშალეთ ეს ბაზარი"
-        payment_preferences: ~
+        payment_preferences: "გადახდის სისტემა"
         pre_approved_listings: ~
         email_admins_about_new_transactions: ~
       manage_members:
@@ -333,7 +333,7 @@ ka:
         twitter_instructions_link_text: "წაიკითხე მეტი"
         twitter_handle_placeholder: "მომხმარებლის სახელი"
         invalid_twitter_handle: "Twitter handle უნდა შეიცავდეს მაქსიმუმ 15 ასოს/რიცხვს (ასოები A-Z და რიცხვები 0-9) სიმბოლოებს."
-        facebook_connect: Facebook
+        facebook_connect: "Facebook შესვლა"
         facebook_developers_dashboard: ~
         facebook_connect_info_text: "Facebook-ით შესვლის გასააქტიურებლად, შექმენი აპლიკაცია შენი ბაზრისთვის <a href='https://developers.facebook.com/'>-ზე Facebook-ის დეველოპერების დაფა</a>. და დაამატე შექმნილი id და აპლიკაციის საიდუმლო კოდი აქ."
         facebook_connect_info_text_with_instructions: "Facebook-ით შესვლის გასააქტიურებლად, შექმენი აპლიკაცია შენი ბაზრისთვის <a href='https://developers.facebook.com/'>-ზე Facebook-ის დეველოპერების დაფა</a>. და დაამატე შექმნილი id და აპლიკაციის საიდუმლო კოდი აქ. %{instructions_link}"
@@ -515,8 +515,8 @@ ka:
             confirmed: ~
             canceled: ~
             disputed: ~
-            initiated: ~
-            pending_ext: ~
+            initiated: "ელოდება PayPal-ის გადახდას"
+            pending_ext: "ელოდება PayPal-ის გადახდას"
             refunded: ~
             dismissed: ~
           stripe:
@@ -540,7 +540,7 @@ ka:
       conversations:
         conversations: ~
         headers:
-          started_from: ~
+          started_from: დაიწყო
           status: ~
           started: ~
           last_activity: ~
@@ -555,7 +555,7 @@ ka:
       testimonials:
         testimonials: ~
         no_testimonials_found: ~
-        displaying_xx_reviews: ~
+        displaying_xx_reviews: "ნაჩვენებია <b>%{count}</b> მიმოხილვა ტრანზაქციებში %{tx_from} - %{tx_to} სულ <b>%{all_count}</b> მიმოხილვებიდან"
         search_keyword: ~
         search: ~
         reset_search: ~
@@ -713,7 +713,7 @@ ka:
         start_using_the_custom_domain: ~
       landing_pages:
         landing_pages: ~
-        info_1: ~
+        info_1: "სადესანტო გვერდი არის თქვენი ბაზრის ყველაზე მნიშვნელოვანი გვერდი. ეს არის პირველი გვერდი, რომელსაც მნახველები ხედავენ - თქვენი სახლის წინა კარის მსგავსი. თქვენ გაქვთ მხოლოდ რამდენიმე წამი, რათა დაარწმუნოთ ახალი ვიზიტორები, რომ მათ უნდა შეისწავლონ თქვენი საიტი. გვერდი უნდა იყოს მიმზიდველი და თქვენი ღირებულების შეთავაზება უნდა იყოს ნათელი და მიმზიდველი."
         info_2: ~
         info_2_help_center: ~
         info_3: ~
@@ -970,9 +970,9 @@ ka:
             all_users: ~
             posting_allowed: ~
             with_listing: ~
-            with_listing_no_payment: ~
-            with_payment_no_listing: ~
-            no_listing_no_payment: ~
+            with_listing_no_payment: "მომხმარებლები, რომლებმაც გამოაქვეყნეს მინიმუმ ერთი ჩამონათვალი, მაგრამ არ დაუმატებიათ გადახდის დეტალები"
+            with_payment_no_listing: "მომხმარებლები, რომლებმაც დაამატეს გადახდის დეტალები, მაგრამ არ გამოაქვეყნეს სია"
+            no_listing_no_payment: "მომხმარებლები, რომლებსაც არ აქვთ გამოქვეყნებული სია და არ დაუმატებიათ გადახდის დეტალები"
         email_subject: "ელ. ფოსტის სათაური"
         email_content: "ელ. ფოსტის შინაარსი"
         email_content_placeholder: "რა გსურს რომ შენს მომხმარებლებს უთხრა?"
@@ -981,7 +981,7 @@ ka:
         message_will_be_sent_only_to_people_with_this_language: "შენიშვნა: ელ-ფოსტა გადაეგზავნება მხოლოდ იმ წევრებს, რომლებიც იყენებენ %{service_name}-ს იმ ენაზე რომელიც თქვენ აირჩიეთ."
         email_sent: "ელ. ფოსტა გაგზავნილია"
         to_improve_email_deliverability: ~
-        email_subject_text: ~
+        email_subject_text: "ახალი შეტყობინება %{service_name}  გუნდისგან"
         firstname_cannot_be_removed: ~
         hello_firstname: ~
         hello_firstname_text: ~
@@ -1091,7 +1091,7 @@ ka:
       integration_info_text: "Sharetribe-ის გადახდები ეფუძნება PayPal-ს. იმისთვის რომ ნება დართო შენ მომხმარებლებს რომ გამოიყენონ შენი ბაზარი შენ უნდა დაუკავშირდე შენს PayPal ანგარიშს. იმის შემდეგ რაც დაუკავშირდები შენს PayPal ანგარიშს შეგიძლია მიუთითო მინიმუმ ტრანზაქციების ზომა და შესაძლო საკომისიო საფასური."
       link_paypal_personal_account_label: "თავად აწარმოებთ სერვისს ან პროდუქტს?"
       link_paypal_personal_account: "თუ კი, თქვენ ასევე დაგჭირდებათ თქვენ PayPal ანგარიშის დაკავშირება %{personal_payment_preferences_link}-სთან."
-      link_stripe_personal_account: ~
+      link_stripe_personal_account: "თუ ასეა, თქვენ ასევე დაგჭირდებათ თქვენი გადახდის დეტალების დამატება %{personal_payment_preferences_link} -ზე."
       link_paypal_and_stripe_personal_account: ~
       personal_payment_preferences_link_text: "თქვენი პერსონალური ბაზრის ანგარიში"
       read_more_about_paypal: "წაიკითხე მეტი Sharetribe-ის გადახდის სისტემის შესახებ"
@@ -1111,8 +1111,8 @@ ka:
       connect_a_payment_provider: ~
       contact_support: ~
       no_payments_link_text: ~
-      your_country: ~
-      you_cannot_use_online_payments: ~
+      your_country: "შენი ქვეყანა"
+      you_cannot_use_online_payments: "თქვენ არ შეგიძლიათ გამოიყენოთ ონლაინ გადახდები %{country_name} -ში %{currency}-ით. გთხოვთ, აირჩიოთ სხვა ვალუტა ან %{support_link} თქვენი ქვეყნის შესაცვლელად. შეგიძლიათ მეტი წაიკითხოთ მხარდაჭერილი ქვეყნებისა და ვალუტების შესახებ %{help_link}. მომავალში შეიძლება დავამატოთ მეტი გადახდის პროვაიდერი და მეტი ვალუტის მხარდაჭერა"
       which_to_choose: ~
       you_can_use_stripe_or_paypal: ~
       you_can_use_stripe_only: ~
@@ -1272,7 +1272,9 @@ ka:
     paypal_fee_info:
       title: "PayPal-ით გადახდის საფასური"
       body_text: "PayPal არიცხავს გადახდის საფასურს ყოველი გადახდიდან. ეს გადასახადი მერყეობს 2%-დან 5%-მდე მთლიანი გაყიდული ფასიდან, დამოკიდებულია თვიური გაყიდვების მოცულობიდან და გამყიდველის ქვეყნიდან გამომდინარე. ზოგადად, ადგილობრივ გაყიდვებს აქვს უფრო დაბალი გადასახადი ვიდრე საერთაშორისოებს და მაღალი თვიური გაყიდვები გაძლევს ფასდაკლებას გადასახადზე. თქვენ შეგიძლიათ ზუსტი გადასახადი ნახოთ PayPal-ის ანგარიშზე შესვლით და %{link_to_paypal}-ზე გადასვლით. ყოველი გაყიდვის შემდეგ მიიღებთ საფასურს რომელზეც ეწერება ზუსტი რაოდენობა."
-      body_text_accept: ~
+      body_text_accept: |-
+          ეს ტრანზაქცია მუშავდება PayPal-ის მიერ. PayPal იხდის დამუშავების საფასურს თითოეული გადახდისგან. ეს საკომისიო შეადგენს გაყიდვების მთლიანი ფასის 2%-დან 5%-მდე, თქვენი ყოველთვიური გაყიდვების მოცულობისა და მყიდველის რეზიდენციის ქვეყნიდან გამომდინარე. ზოგადად, შიდა შესყიდვებს უფრო დაბალი საკომისიო აქვს, ვიდრე საერთაშორისო, და უფრო მაღალი ყოველთვიური გაყიდვები გაძლევთ ფასდაკლებას გადასახადებზე.
+          ზუსტი საკომისიოების ნახვა შეგიძლიათ თქვენს PayPal ანგარიშში შესვლით და %{link_to_paypal} -ზე გადასვლით. ყოველი შეძენის შემდეგ თქვენ მიიღებთ ქვითარს, რომელშიც მითითებულია ზუსტი საფასური.
       link_to_paypal_text: აქ
     stripe_fee_info:
       title: ~
@@ -1341,7 +1343,7 @@ ka:
       message_content_not_available: "მესიჯის შიგთავსი მიუწვდომელია"
     message:
       accepted_request: "მოთხოვნა დადასტურდა"
-      received_payment: ~
+      received_payment: "მიიღო მოთხოვნა, მიიღო გადახდა"
       received_payment_wo_sum: ~
       accepted_offer: "დაადასტურა შეთავაზება"
       rejected_request: "მოთხოვნა გაუქმდა, გადახდა გაუქმებულია"
@@ -1351,7 +1353,7 @@ ka:
       canceled_request: "გააუქმა შეკვეთა"
       canceled_offer: "გააუქმა შეთავაზება"
       paid: "გადახდილია %{sum}"
-      payment_preauthorized: ~
+      payment_preauthorized: "გადახდა ავტორიზებულია"
       payment_preauthorized_wo_sum: ~
       stripe:
         held_payment: ~
@@ -1434,7 +1436,7 @@ ka:
           unknown_reason: "გადახდა პროცესშია. შედი PayPal-ის ანგარიშზე რომ ნახო დეტალები."
           verify: "გელოდებით რომ დაადასტუროთ PayPal-ს ანგარიში"
       stripe:
-        waiting_confirmation_from_requester: ~
+        waiting_confirmation_from_requester: "ელოდება %{requester_name}  შეკვეთის დასრულებულად მონიშვნას. მას შემდეგ, რაც შეკვეთა მონიშნულია დასრულებულად, გადახდა დაირიცხება თქვენს საბანკო ანგარიშზე."
       order_canceled: ~
       waiting_for_marketplace_review: ~
       marketplace_notified: ~
@@ -1515,7 +1517,7 @@ ka:
       payment_settings_link: "გადახდის პარამეტრები"
     payment_settings_reminder_v2:
       fill_payout_details: ~
-      you_have_added_listing_with_payment: ~
+      you_have_added_listing_with_payment: "თქვენ დაამატეთ ფასიანი განცხადება %{listing_link}  ჩვენ შევამჩნიეთ, რომ თქვენი გადახდის ინფორმაცია ჯერ არ იყო შეყვანილი. გადახდის მისაღებად, თქვენ უნდა შეიყვანოთ გადახდის ინფორმაციის დეტალები."
     transaction_confirmed:
       here_is_a_message_from: "აქ არის წერილი %{other_party_given_name}სგან"
       request_marked_as_confirmed: "შეკვეთა წარმატებით დასრულდა - არ დაგავიწყდეთ შეფასების მიცემა"
@@ -1570,10 +1572,10 @@ ka:
       message_not_displaying_correctly: "ეს ელ. ფოსტა არ არის ნაჩვენები სწორად?"
       view_it_in_your_browser: "ნახეთ ეს თქვენ ბრაუზერში"
       or: ან
-      unsubscribe_from_these_emails_info: ~
+      unsubscribe_from_these_emails_info: "თქვენ მიიღეთ ეს ელფოსტა, რადგან ხართ %{service_name} -ის წევრი."
       unsubscribe_from_these_emails: "ამ ელ. ფოსტისგან გამოწერის გაუქმება"
       unsubscribe_from_invitation_emails_info: ~
-      unsubscribe_from_invitation_emails: ~
+      unsubscribe_from_invitation_emails: "გააუქმეთ მოწვევის ელფოსტის გამოწერა %{service_name} -თან შესაერთებლად"
       here_is_your_receipt: ~
     conversation_status_changed:
       has_accepted_your_offer: "%{accepter} დაეთანხმა თქვენ შემოთავაზებას %{listing}."
@@ -1609,11 +1611,11 @@ ka:
       has_commented_listing_you_follow_in_kassi: "%{author} დააკომენტარა ჩამონათვალზე %{listing} რომელსაც თქვენ მისდევთ %{service_name}-ში. "
     new_message:
       view_message: "ნახე წერილი"
-      has_sent_you_a_message_in_kassi: ~
-      you_have_a_new_message: ~
+      has_sent_you_a_message_in_kassi: "%{sender} გამოგიგზავნათ შეტყობინება. გადადით %{service_name} საპასუხოდ."
+      you_have_a_new_message: "თქვენ გაქვთ ახალი შეტყობინება %{sender_name} -%{service_name} -ში"
     new_message_v2:
       headline: ~
-      reply: ~
+      reply: "დააწკაპუნეთ აქ პასუხის გასაცემად %{sender}"
     new_payment:
       new_payment: "თქვენ მიიღეთ ახალი გადახდა"
       price_per_unit_type: "ფასი ყოველ %{unit_type}"
@@ -1743,7 +1745,7 @@ ka:
       welcome_to_marketplace: "მოგესალმებით %{service_name}-ზე! მოხარული ვართ რომ ჩვენი გუნდის წევრი ხართ."
       love_marketplace_crew: "სიყვარული, <br /><i>%{service_name} ეკიპაჟი </i>"
       welcome_email_footer_text: "%{settings_link}"
-      settings_link_text: ~
+      settings_link_text: "შეცვალეთ თქვენი ელფოსტის პარამეტრები აქ"
     new_listing_by_followed_person:
       subject: "%{author_name} გამოაქვეყნა ახალი ჩამონათვალი %{service_name}-ში"
       has_posted_a_new_listing: "%{author_name} დაპოსტა ახალი ჩამონათვალი"
@@ -1754,7 +1756,7 @@ ka:
       has_posted_a_new_listing: ~
       you_are_receiving_this_because: ~
       view_listing: ~
-      cant_click: ~
+      cant_click: "ღილაკზე ვერ დააჭერთ? აქ არის ბმული თქვენი მოხერხებულობისთვის:"
     new_ident_notification:
       subject: ~
       h1_body: ~
@@ -2287,7 +2289,7 @@ ka:
       user_does_not_have_email_to_delete: "თქვენ არ გაქვთ ის ელ. ფოსტა, რომლის წაშლავც გსურთ. "
       email_deleted: "ელ. ფოსტა წაშლილია"
       listing_author_payment_details_missing: "გთხოვთ დაუკავშირდეთ განცხადების ავტორს, \"კონტაქტი\"-ს ღილაკზე თითის დაჭერით. იმისათვის რომ მიიღონ გადახდა, მათ უნდა დაამატონ გადახდის მეთოდი."
-      listing_author_payment_details_missing_no_free: ~
+      listing_author_payment_details_missing_no_free: "გთხოვთ, დაუკავშირდეთ %{service_name} გუნდს და სთხოვეთ, რეკომენდაცია გაუწიონ გადახდის დეტალებს, რათა პოსტის მფლობელმა შეძლოს გადახდა."
       images_are_processing: "სურათები იტვირთება. 2 წუთში ყველა გამოჩნდება, გთხოვთ დაიცადოთ."
       maintenance_mode:
         zero: "საიტი იქნება გამორთული შეკეთებისთვის "
@@ -2295,8 +2297,8 @@ ka:
       automatically_logged_out_please_sign_in: "თქვენ ავტომატურად გამოხვედით სისტემიდან. გთხოვთ შედით თავიდან."
       stripe_you_account_balance_is_not_0: ~
       stripe_balance_for_username_is_not_0: ~
-      visit_admin: ~
-      visit_admin_link: ~
+      visit_admin: "გსურთ %{link} ?"
+      visit_admin_link: "ეწვიეთ თქვენს ადმინისტრაციულ პანელს"
       an_error_occurred_when_saving_your_information: ~
     settings:
       account: ანგარიში
@@ -2412,7 +2414,7 @@ ka:
         long_time: "კვირა, თვე, ..."
         after_service_fee_you_will_get: "%{service_name}-ს და გადახდის პროცესორის საფასურის შემდგომ თქვენ მიიღებთ %{sum_with_currency}"
         no_service_fee_you_will_get_paypal_text: "%{paypal_fee_info_link} დაიქვითება ფასიდან."
-        no_service_fee_you_will_get_payment_text: ~
+        no_service_fee_you_will_get_payment_text: "%{payment_fee_info_link}  ჩამოიჭრება ფასიდან."
         after_service_fee_you_will_get_payment_text: "როდესაც ვინმე შეკვეთას გააკეთებს, %{payment_fee_info_link} თქვენ მიიღებთ ამ თანხას მინუს"
         payment_fee_info_link_text: "%{service_name} საკომისიო და გადახდის დამუშავების საკომისიო"
         delivery: "მიტანის მეთოდი"
@@ -2737,8 +2739,8 @@ ka:
         other: "%{service_name}-ზე შესვლა არძალულია. დასარეგისტრირებლად გჭირდებათ %{allowed_emails} ელ. ფოსტა."
       family_name: გვარი
       given_name: სახელი
-      i_accept_the_terms_and_privacy: ~
-      admin_emails_consent: ~
+      i_accept_the_terms_and_privacy: "ვეთანხმები %{terms} და %{privacy}"
+      admin_emails_consent: "თანახმა ვარ, მივიღო პერიოდული ელ.წერილი %{service_name} ის გუნდისგან და მესმის, რომ ნებისმიერ დროს შემიძლია აზრის შეცვლა"
       invalid_invitation_code: "მოწვევის კოდი არ არის სწორი"
       invitation_code: "მოწვევის კოდი"
       not_required: "არ არის მოთხოვნილი"
@@ -2747,10 +2749,10 @@ ka:
       show_my_name_to_others: "აჩვენე ჩემი ნამდვილი სახელი სხვა %{service_name}ის მომხმარებლებს"
       sign_up: "შექმენით ახალი %{service_name} ანგარიში"
       terms: "მოხმარების პირობები"
-      privacy: ~
+      privacy: კონფიდენციალურობა
       visible_only_to_you: "ხილული მხოლოდ შენთვის და ბაზრის ადმინისტრაციისთვის"
       visible_to_everybody: "ყველასთვის ხილული"
-      create_account_with_provider: ~
+      create_account_with_provider: "დარეგისტრირდით %{provider}"
       OR: ან
       signup_with_email: "დარეგისტრირდი ელ. ფოსტით"
       this_field_will_be_publicly_visible: ~
@@ -2895,8 +2897,8 @@ ka:
       homepage_link: "მთავარი გვერდი"
       unsubscribe_unsuccesful: "გამოწერის გაუქმების შეცდომა"
       unsuccessful_unsubscribe_info_text: "გამოწერის გაუქმების ბმულს ვადა გაუვიდა. შედი სისტემაში, რომ შეცვალოთ ელ. ფოსტის გამოწერის პარამეტრები"
-      email_listing_new_comment: ~
-      email_listing_updated: ~
+      email_listing_new_comment: "...საჯარო დისკუსიის ჩამონათვალს, რომელსაც მე მივყვები, აქვს ახალი კომენტარი"
+      email_listing_updated: "...სია, რომელზეც კომენტარი გავაკეთე, განახლებულია"
     profile:
       about_you: "შენს შესახებ"
       city: ქალაქი
@@ -3090,7 +3092,7 @@ ka:
           overlaps: ~
           covers: ~
       pricing_units:
-        piece: ""
+        piece: ~
         hour: საათი
         day: დღე
         night: ღამე
@@ -3169,7 +3171,7 @@ ka:
     pay_with_stripe: ~
     add_and_pay: ~
     card_not_stored: ~
-    missing_payment: ~
+    missing_payment: "თქვენ გაქვთ ღია განცხადებები, მაგრამ თქვენი ანგარიში ჯერ არ არის დაყენებული ფულის მისაღებად. თქვენი გადახდის პარამეტრების კონფიგურაციისთვის ეწვიეთ გადახდის პარამეტრებს %{settings_link}"
     stripe_bank_connected: ~
     stripe_can_accept: ~
     stripe_credit_card: ~
