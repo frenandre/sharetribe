@@ -1,6 +1,8 @@
 %tr
   %td
-    %h2= t("alerts.abuse_message")
+    %h2
+      = link_to(PersonViewUtils.person_display_name_for_type(sender, @current_communit), sender_url) 
+      = t("alerts.wrote")
 
     = render :partial => "person_mailer/quote-v2", :locals => { :quote => message }
 

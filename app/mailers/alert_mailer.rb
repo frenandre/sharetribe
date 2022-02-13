@@ -1,7 +1,3 @@
-include ApplicationHelper
-include ListingsHelper
-include TruncateHtmlHelper
-
 class AlertMailer < ActionMailer::Base
   include MailUtils
 
@@ -19,7 +15,7 @@ class AlertMailer < ActionMailer::Base
   def alerts_abuse(listing, message, locale, sender)
     set_up_layout_variables(nil, listing.community)
     with_locale(locale, listing.community.locales.map(&:to_sym), listing.community.id) do
-      subject = "test"
+      subject = t("alerts.abuse_message")
       mail(:to => listing.community.admin_emails.join(","),
            :from => community_specific_sender(listing.community),
            :subject => subject,
@@ -28,9 +24,11 @@ class AlertMailer < ActionMailer::Base
                render v2_template(listing.community.id, 'alerts_abuse'),
                  layout: v2_layout(listing.community.id),
                  locals: {
+                   sender: sender,
+                   sender_url: person_url(@url_params.merge(username: sender.username)),
                    listing: listing,
                    message: message,
-                   listing_url: listing_url(@url_params.merge({:id => listing.id}))
+                   listing_url: listing_url(@url_params.merge(id: listing.id))
                 }
              }
       end

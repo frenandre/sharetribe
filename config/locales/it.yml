@@ -3326,6 +3326,7 @@ it:
     YT: "Yukon Territory"
   alerts:
     message: "Segnala l'inserzione"
+    wrote: "ha scritto"
     you_must_log_in_to_send_an_alert: "Accedi a %{service_name} per creare una segnalazione."
     listing_by: "%{listing} di %{author}"
     abuse_message: "Segnala abuso all'amministratore"
