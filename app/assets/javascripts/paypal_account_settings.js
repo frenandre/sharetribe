@@ -6,7 +6,7 @@ window.ST = window.ST || {};
   module.initializeNewPaypalAccountHandler = function(linkId, action, redirectMessageSelector) {
     var $link = $('#'+linkId);
     var spinner = new Image();
-    spinner.src = "https://s3.amazonaws.com/sharetribe/assets/ajax-loader-grey.gif";
+    spinner.src = "https://assets.dilan.bz/assets/ajax-loader-grey.gif";
     spinner.className = "send-button-loading-img";
 
     $link.click(function(){
