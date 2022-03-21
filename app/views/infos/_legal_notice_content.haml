@@ -4,4 +4,4 @@
 - if params[:controller] == 'infos'
   - content_for :meta_description, StringUtils.first_words(strip_tags(content.html_safe))
 
-= content
+= content.html_safe
