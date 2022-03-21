@@ -1,0 +1,7 @@
+- if @community_customization && @community_customization.legal_notice_page_content
+  - content = @community_customization.legal_notice_page_content.html_safe
+
+- if params[:controller] == 'infos'
+  - content_for :meta_description, StringUtils.first_words(strip_tags(content.html_safe))
+
+= content

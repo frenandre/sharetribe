@@ -6,4 +6,5 @@
   %h1= t("layouts.infos.info_about_kassi")
 
 .left-navi-section.about-section
-  = render :partial => "infos/terms_content"
+  = render :layout => "layouts/mercury_editable_page", :locals => { :content_type => "legal_notice_page_content" } do
+    = render :partial => "infos/legal_notice_content"

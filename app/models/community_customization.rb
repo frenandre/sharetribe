@@ -34,6 +34,7 @@
 #  category_meta_description                  :text(65535)
 #  profile_meta_title                         :string(255)
 #  profile_meta_description                   :text(65535)
+#  legal_notice_page_content                  :text(16777215)
 #
 # Indexes
 #
@@ -56,6 +57,7 @@ class CommunityCustomization < ApplicationRecord
   validates_length_of :verification_to_post_listings_info_content, maximum: 262140
   validates_length_of :transaction_agreement_label, maximum: 255
   validates_length_of :transaction_agreement_content, maximum: 262140
+  validates_length_of :legal_notice_page_content, maximum: 262140
 
   belongs_to :community
 
@@ -72,6 +74,7 @@ class CommunityCustomization < ApplicationRecord
     search_placeholder
     transaction_agreement_label
     transaction_agreement_content
+    legal_notice_page_content
   )
 
 end
