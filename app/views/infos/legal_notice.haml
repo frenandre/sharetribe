@@ -7,4 +7,8 @@
 
 .left-navi-section.about-section
   = render :layout => "layouts/mercury_editable_page", :locals => { :content_type => "legal_notice_page_content" } do
-    = render :partial => "infos/legal_notice_content"
+    - content = legal_notice_page_content.html_safe
+
+    - content_for :meta_description, StringUtils.first_words(strip_tags(content))
+
+    - content

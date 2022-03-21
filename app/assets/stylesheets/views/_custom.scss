@@ -8,7 +8,7 @@ body {
     max-width    : 95%;
 }
 
-@media(min-width: 1280px) {
+@media(min-width: 80em) {
     .home>.wrapper>.row>.col-3 {
         width: 16.66667%;
     }
@@ -23,6 +23,10 @@ body {
 
 }
 
+.marketplace-cover {
+    background-color: #fff;
+}
+  
 .icon-with-text-container .text-part {
     font-family: 'Proxima Soft', 'Source Sans Pro', helvetica, sans-serif;
     font-size  : 1em;
