@@ -43,6 +43,12 @@
                 = icon_tag("edit", ["icon-fix"])
           %tr
             %td
+              = link_to t('layouts.infos.legal_notice'), legal_notice_infos_path
+            %td
+              = link_to "/editor#{legal_notice_infos_path}" do
+                = icon_tag("edit", ["icon-fix"])
+          %tr
+            %td
               = link_to t('layouts.infos.register_details'), privacy_infos_path
             %td
               = link_to "/editor#{privacy_infos_path}" do

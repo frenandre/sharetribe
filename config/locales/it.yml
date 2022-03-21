@@ -2118,6 +2118,7 @@ it:
       info_about_kassi: "Informazioni riferite a %{service_name}"
       news: News
       register_details: Privacy
+      legal_notice: "Note legali"
       terms: "Termini e Condizioni"
     logged_in:
       admin: Amministratore

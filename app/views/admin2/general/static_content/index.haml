@@ -30,6 +30,13 @@
                   = t('admin2.static_content.edit')
             %tr
               %td
+                = link_to t('admin2.static_content.legal_notice'), legal_notice_infos_path, target: :_blank
+              %td
+                = link_to "/editor#{legal_notice_infos_path}", target: :_blank do
+                  = image_tag 'svg/edit.svg', class: %i[edit-icon], alt: 'edit'
+                  = t('admin2.static_content.edit')
+            %tr
+              %td
                 = link_to t('admin2.static_content.privacy_policy'), privacy_infos_path, target: :_blank
               %td
                 = link_to "/editor#{privacy_infos_path}", target: :_blank do

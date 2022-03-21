@@ -308,6 +308,12 @@ module ApplicationHelper
       :name => "how_to_use"
     }
     links << {
+      :text => t('layouts.infos.legal_notice'),
+      :icon_class => icon_class("terms"),
+      :path => legal_notice_infos_path,
+      :name => "legal_notice"
+    }
+    links << {
       :text => t('layouts.infos.register_details'),
       :icon_class => icon_class("privacy"),
       :path => privacy_infos_path,
