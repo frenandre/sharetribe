@@ -34,6 +34,8 @@ class InfosController < ApplicationController
     @selected_left_navi_link = "legal_notice"
     content = if @community_customization && !@community_customization.legal_notice_page_content.nil?
       @community_customization.legal_notice_page_content.html_safe
+    else
+      ""
     end
     render locals: { legal_notice_page_content: content }
   end
