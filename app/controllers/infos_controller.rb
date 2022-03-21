@@ -35,9 +35,20 @@ class InfosController < ApplicationController
     content = if @community_customization && !@community_customization.legal_notice_page_content.nil?
       @community_customization.legal_notice_page_content.html_safe
     else
-      ""
+      " "
     end
     render locals: { legal_notice_page_content: content }
+  end
+
+  def cookies
+    @selected_tribe_navi_tab = "about"
+    @selected_left_navi_link = "cookies"
+    content = if @community_customization && !@community_customization.cookies_page_content.nil?
+      @community_customization.cookies_page_content.html_safe
+    else
+      " "
+    end
+    render locals: { cookies_page_content: content }
   end
 
   private

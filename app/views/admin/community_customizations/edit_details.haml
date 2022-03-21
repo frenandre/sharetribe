@@ -55,6 +55,12 @@
                 = icon_tag("edit", ["icon-fix"])
           %tr
             %td
+              = link_to t('layouts.infos.cookies'), cookies_infos_path
+            %td
+              = link_to "/editor#{cookies_infos_path}" do
+                = icon_tag("edit", ["icon-fix"])
+          %tr
+            %td
               = link_to t('layouts.infos.terms'), terms_infos_path
             %td
               = link_to "/editor#{terms_infos_path}" do

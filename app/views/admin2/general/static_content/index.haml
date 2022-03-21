@@ -44,6 +44,13 @@
                   = t('admin2.static_content.edit')
             %tr
               %td
+                = link_to t('admin2.static_content.cookies'), cookies_infos_path, target: :_blank
+              %td
+                = link_to "/editor#{cookies_infos_path}", target: :_blank do
+                  = image_tag 'svg/edit.svg', class: %i[edit-icon], alt: 'edit'
+                  = t('admin2.static_content.edit')
+            %tr
+              %td
                 = link_to t('admin2.static_content.terms_of_use'), terms_infos_path, target: :_blank
               %td
                 = link_to "/editor#{terms_infos_path}", target: :_blank do

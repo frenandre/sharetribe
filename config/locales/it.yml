@@ -2119,6 +2119,7 @@ it:
       news: News
       register_details: Privacy
       legal_notice: "Note legali"
+      cookies: "Cookies"
       terms: "Termini e Condizioni"
     logged_in:
       admin: Amministratore

@@ -366,6 +366,7 @@ CREATE TABLE `community_customizations` (
   `profile_meta_title` varchar(255) DEFAULT NULL,
   `profile_meta_description` text,
   `legal_notice_page_content` mediumtext DEFAULT NULL,
+  `cookies_page_content` mediumtext DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `index_community_customizations_on_community_id` (`community_id`) USING BTREE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;

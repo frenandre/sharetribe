@@ -320,6 +320,12 @@ module ApplicationHelper
       :name => "privacy"
     }
     links << {
+      :text => t('layouts.infos.cookies'),
+      :icon_class => icon_class("terms"),
+      :path => cookies_infos_path,
+      :name => "cookies"
+    }
+    links << {
       :text => t('layouts.infos.terms'),
       :icon_class => icon_class("terms"),
       :path => terms_infos_path,

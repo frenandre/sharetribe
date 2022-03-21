@@ -2144,6 +2144,7 @@ de:
       news: News
       register_details: "Datenschutz"
       legal_notice: "Impressum"
+      cookies: "Cookies"
       terms: Nutzungsbedingungen
     logged_in:
       admin: Administrator

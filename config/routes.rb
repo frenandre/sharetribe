@@ -790,6 +790,7 @@ Rails.application.routes.draw do
         get :privacy
         get :news
         get :legal_notice
+        get :cookies
       end
     end
     resource :terms do
