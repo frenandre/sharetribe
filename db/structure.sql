@@ -68,6 +68,33 @@ CREATE TABLE `ar_internal_metadata` (
   PRIMARY KEY (`key`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
+DROP TABLE IF EXISTS `audits`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `audits` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `auditable_id` varchar(255) DEFAULT NULL,
+  `auditable_type` varchar(255) DEFAULT NULL,
+  `associated_id` int(11) DEFAULT NULL,
+  `associated_type` varchar(255) DEFAULT NULL,
+  `user_id` varchar(255) DEFAULT NULL,
+  `user_type` varchar(255) DEFAULT NULL,
+  `username` varchar(255) DEFAULT NULL,
+  `action` varchar(255) DEFAULT NULL,
+  `audited_changes` text DEFAULT NULL,
+  `version` int(11) DEFAULT 0,
+  `comment` varchar(255) DEFAULT NULL,
+  `remote_address` varchar(255) DEFAULT NULL,
+  `request_uuid` varchar(255) DEFAULT NULL,
+  `created_at` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `auditable_index` (`auditable_type`,`auditable_id`,`version`),
+  KEY `associated_index` (`associated_type`,`associated_id`),
+  KEY `user_index` (`user_id`,`user_type`),
+  KEY `index_audits_on_request_uuid` (`request_uuid`),
+  KEY `index_audits_on_created_at` (`created_at`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+/*!40101 SET character_set_client = @saved_cs_client */;
 DROP TABLE IF EXISTS `auth_tokens`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;

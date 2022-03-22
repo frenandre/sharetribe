@@ -190,3 +190,5 @@ gem "cocoon"
 gem "fast-polylines"
 gem "codemirror-rails"
 gem 'rb-inotify', '~> 0.10'
+
+gem 'audited', '~> 5.0', '>= 5.0.2'
