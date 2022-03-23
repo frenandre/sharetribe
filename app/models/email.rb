@@ -27,6 +27,8 @@ class Email < ApplicationRecord
   include ApplicationHelper
   belongs_to :person
 
+  audited
+
   validates_presence_of :person
   validates_length_of :address, :maximum => 255
   validates_format_of :address,
