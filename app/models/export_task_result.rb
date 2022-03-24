@@ -15,14 +15,28 @@
 
 class ExportTaskResult < ApplicationRecord
   attr_accessor :original_filename, :original_extname
-  has_attached_file :file, s3_headers: lambda { |record|
-    {
-      'Content-Type' => "text/#{record.original_extname}",
-      'Content-Disposition' => "attachment; filename=#{record.original_filename}"
-    }
-  },
-                           path: "file-exports/:class/:attachment/:id/:filename",
-                           s3_permissions: :private
+
+  PAPERCLIP_OPTIONS = 
+    if (APP_CONFIG.s3_bucket_name && APP_CONFIG.aws_access_key_id && APP_CONFIG.aws_secret_access_key)
+      {
+        path: "file-exports/:class/:attachment/:id/:filename",
+        s3_permissions: :private,
+        s3_headers: lambda { |record|
+          {
+            'Content-Type' => "text/#{record.original_extname}",
+            'Content-Disposition' => "attachment; filename=#{record.original_filename}"
+          }
+        }
+      }
+    else
+      {
+        path: ":rails_root/public/system/:class/:attachment/:id/:filename",
+        url: "/system/:class/:attachment/:id/:filename",
+        validate_media_type: false
+      }
+    end
+
+  has_attached_file :file, PAPERCLIP_OPTIONS
 
   do_not_validate_attachment_file_type :file
 
