@@ -17,7 +17,7 @@ module ListingIndexViewUtils
     :unit_type,
     :quantity,
     :shape_name_tr_key,
-    :category_text,
+    :category_old,
     :listing_shape_id,
     :icon_name)
 
@@ -82,7 +82,7 @@ module ListingIndexViewUtils
         l[:unit_type],
         l[:quantity],
         l[:shape_name_tr_key],
-        l[:category_text],
+        l[:category_old],
         l[:listing_shape_id],
         l[:icon_name]
       )
