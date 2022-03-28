@@ -66,12 +66,13 @@
               window.ST.initializeShippingPriceTotal(#{raw @listing_presenter.currency_opts.to_json}, '#quantity', '.delivery-price-value');
             }
 
-        .quantity-wrapper.input-group.clearfix
-          .quantity-label-wrapper
-            %label.quantity-label{for: 'quantity'}
-              = ListingViewUtils.translate_quantity(@listing.unit_type, @listing.unit_selector_tr_key)
-          .quantity-input.input-sm.required
-            %input#quantity{type: 'number', placeholder: t("listings.quantity_placeholder"), name: 'quantity', value: 1, min: 1, step: 1}
+        - if @listing.price && @listing.price > 0
+          .quantity-wrapper.input-group.clearfix
+            .quantity-label-wrapper
+              %label.quantity-label{for: 'quantity'}
+                = ListingViewUtils.translate_quantity(@listing.unit_type, @listing.unit_selector_tr_key)
+            .quantity-input.input-sm.required
+              %input#quantity{type: 'number', placeholder: t("listings.quantity_placeholder"), name: 'quantity', value: 1, min: 1, step: 1}
 
       = render partial: "delivery_opts", locals: { delivery_opts: @listing_presenter.delivery_opts, is_author: @listing_presenter.is_author }
 
