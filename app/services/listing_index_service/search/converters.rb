@@ -10,7 +10,7 @@ module ListingIndexService::Search::Converters
       created_at: l.created_at,
       category_id: l.category_id,
       comment_count: l.comments_count,
-      price: l.price,
+      price: l.price.present? && l.price > 0 ? l.price : nil,
       unit_tr_key: l.unit_tr_key,
       unit_type: l.unit_type,
       quantity: l.quantity,
