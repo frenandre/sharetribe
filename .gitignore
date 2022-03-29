@@ -22,7 +22,7 @@ public/system/*
 .loadpath
 .project
 cg.sh
-public/assets/
+public/assets
 app/assets/webfonts/
 app/assets/stylesheets/customizations-*
 app/assets/stylesheets/custom-style-*
