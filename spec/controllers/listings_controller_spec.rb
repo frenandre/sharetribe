@@ -227,7 +227,7 @@ describe ListingsController, type: :controller do
       expect(response.status).to eq(200)
       doc = Nokogiri::XML::Document.parse(response.body)
       doc.remove_namespaces!
-      expect(doc.at('feed/logo').text).to eq("https://s3.amazonaws.com/sharetribe/assets/dashboard/sharetribe_logo.png")
+      expect(doc.at('feed/logo').text).to end_with("/assets/dashboard/sharetribe_logo.png")
 
       expect(doc.at("feed/title").text).to match(/Listings in Sharetribe /)
       expect(doc.search("feed/entry").count).to eq(2)

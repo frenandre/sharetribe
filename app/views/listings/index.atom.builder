@@ -1,8 +1,8 @@
 atom_feed :language => 'en-US', 'xmlns:georss' => 'http://www.georss.org/georss', 'xmlns:st'  => 'https://www.sharetribe.com/sharetribe-go-atom-feed' do |feed|
   feed.title @feed_presenter.title
   feed.updated @feed_presenter.updated
-  feed.icon "https://s3.amazonaws.com/sharetribe/assets/sharetribe_icon.png"
-  feed.logo "https://s3.amazonaws.com/sharetribe/assets/dashboard/sharetribe_logo.png"
+  feed.icon "#{APP_CONFIG.user_asset_host}/assets/sharetribe_icon.png"
+  feed.logo "#{APP_CONFIG.user_asset_host}/dashboard/sharetribe_logo.png"
 
   host = @current_community.full_domain(port: '')
   @feed_presenter.listings.each do |listing|
