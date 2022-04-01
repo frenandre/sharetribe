@@ -38,8 +38,8 @@ namespace :sharetribe do
         rescue StandardError => e
           puts e
         ensure
-          #chat.refreshed_at = date1
-          #chat.save()
+          chat.refreshed_at = date1
+          chat.save()
         end
       }
     end
