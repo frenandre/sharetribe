@@ -11,8 +11,8 @@ namespace :sharetribe do
       title = shape_name(listing)
       text = "#{title}\n#{url}"
 
-      RestClient.post("#{@telegram_host}/bot#{api_secret_key}/sendMessage", { chat_id: chat_id, text: text, parse_mode: :Markdown })
-      sleep 2
+      RestClient.post("#{@telegram_host}/bot#{api_secret_key}/sendMessage", { chat_id: chat_id, text: text, parse_mode: :Markdown, disable_notification: true })
+      sleep 5
     end
 
     desc "Pulish listings to telegram channels"
@@ -38,8 +38,8 @@ namespace :sharetribe do
         rescue StandardError => e
           puts e
         ensure
-          chat.refreshed_at = date1
-          chat.save()
+          #chat.refreshed_at = date1
+          #chat.save()
         end
       }
     end
