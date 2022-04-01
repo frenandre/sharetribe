@@ -1,5 +1,6 @@
 class SeoService
-
+  include ListingsHelper
+  include ActionView::Helpers::TranslationHelper
 
   # One can use the following variables as placeholders for SEO title and meta tags:
 
@@ -14,6 +15,7 @@ class SeoService
     LISTING_PRICE = 'listing_price'.freeze, # the listing price + pricing unit (for example "$20 per person")
     CATEGORY_NAME = 'category_name'.freeze, # the category name
     USER_DISPLAY_NAME = 'user_display_name'.freeze, # user display name
+    SHAPE_NAME = 'shape_name'.freeze, # the shape name
   ].freeze
 
 
@@ -50,9 +52,9 @@ class SeoService
       "{{#{LISTING_TITLE}}} - {{#{MARKETPLACE_NAME}}}"
     when :listing_meta_description
       if mode == 'default' || @listing.try(:price_cents).to_i > 0
-        I18n.t("seo_sections.placeholder.listing_description", title: "{{#{LISTING_TITLE}}}", price: "{{#{LISTING_PRICE}}}", author: "{{#{LISTING_AUTHOR}}}", marketplace: "{{#{MARKETPLACE_NAME}}}", locale: locale)
+        I18n.t("seo_sections.placeholder.listing_description", title: "{{#{LISTING_TITLE}}}", price: "{{#{LISTING_PRICE}}}", author: "{{#{LISTING_AUTHOR}}}", marketplace: "{{#{MARKETPLACE_NAME}}}", shape_name: "{{#{SHAPE_NAME}}}", locale: locale)
       else
-        I18n.t("seo_sections.placeholder.listing_description_without_price", title: "{{#{LISTING_TITLE}}}", author: "{{#{LISTING_AUTHOR}}}", marketplace: "{{#{MARKETPLACE_NAME}}}", locale: locale)
+        I18n.t("seo_sections.placeholder.listing_description_without_price", title: "{{#{LISTING_TITLE}}}", author: "{{#{LISTING_AUTHOR}}}", marketplace: "{{#{MARKETPLACE_NAME}}}", shape_name: "{{#{SHAPE_NAME}}}", locale: locale)
       end
     when :category_meta_title
       "{{#{CATEGORY_NAME}}} - {{#{MARKETPLACE_NAME}}}"
@@ -175,6 +177,8 @@ class SeoService
       @category ? @category.display_name(locale) : nil
     when USER_DISPLAY_NAME
       @user ? PersonViewUtils.person_display_name(@user, @community) : nil
+    when SHAPE_NAME
+      shape_name(@listing)
     end
   end
 

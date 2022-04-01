@@ -3282,13 +3282,13 @@ it:
   seo_sections:
     you_can_use_variables: ~
     placeholder:
-      search_results: ~
-      search_results_for: ~
-      listing_description: ~
-      listing_description_without_price: ~
-      category_description: ~
-      profile_title: ~
-      profile_description: ~
+      search_results: "Risultato di ricerca - %{variable}"
+      search_results_for: "Risultato di ricerca per: %{placeholder1} auf %{placeholder2}"
+      listing_description: "%{author}: {shape_name} - %{title} - %{price}"
+      listing_description_without_price: "%{author}: {shape_name} - %{title}"
+      category_description: "%{category} su %{marketplace}"
+      profile_title: "Profilo di %{user} - %{marketplace}"
+      profile_description: "Scopri di più di %{user} su %{marketplace}"
   activemodel:
     attributes:
       landing_page_version/section/base:
