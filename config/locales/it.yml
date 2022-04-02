@@ -2578,8 +2578,8 @@ it:
       night: notte
       week: settimana
       month: mese
-      unit: ~
-      person: ~
+      unit: unità
+      person: persona
     verification_required:
       verification_required: "Richiesta verifica"
   listing_conversations:
