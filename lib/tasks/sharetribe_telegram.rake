@@ -8,8 +8,8 @@ namespace :sharetribe do
     def post(listing, url, locale, chat_id, api_secret_key)
       puts "post listing #{listing.id} to telegram"
 
-      text = listing.category ? "#{listing.category.display_name(locale)}: " : ''
-      text += listing.text
+      text = listing.shape_name_tr_key ? "#{t(listing.shape_name_tr_key)}: " : ''
+      text += listing.title
       text += "\n#{url}"
 
       RestClient.post("#{@telegram_host}/bot#{api_secret_key}/sendMessage", { chat_id: chat_id, text: text, parse_mode: :Markdown, disable_notification: true })
@@ -19,6 +19,7 @@ namespace :sharetribe do
     desc "Pulish listings to telegram channels"
     task publish: :environment do
       include MailUtils
+      include ActionView::Helpers::TranslationHelper
       include Rails.application.routes.url_helpers
 
       TelegramChat.all().each { |chat|

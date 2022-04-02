@@ -1057,7 +1057,7 @@ it:
         night: "Per notte"
         week: "Per settimana"
         month: "Per mese"
-        unit: ~
+        unit: "Per unità"
       can_not_find: ~
       add_custom_unit: ~
       delete_custom_unit: Elimina
