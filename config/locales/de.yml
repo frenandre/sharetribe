@@ -3338,8 +3338,8 @@ de:
     placeholder:
       search_results: "Suchergebnisse - %{variable}"
       search_results_for: "Suchergebnisse für: %{placeholder1} auf %{placeholder2}"
-      listing_description: "%{author} - %{shape_name} - %{title} - %{price}"
-      listing_description_without_price: "%{author} - %{shape_name} - %{title}"
+      listing_description: "%{author} - %{shape_name} - %{price}"
+      listing_description_without_price: "%{author} - %{shape_name}"
       category_description: "%{category} auf %{marketplace}"
       profile_title: "Profil von %{user} - %{marketplace}"
       profile_description: "Mehr über %{user} auf %{marketplace} erfahren"
