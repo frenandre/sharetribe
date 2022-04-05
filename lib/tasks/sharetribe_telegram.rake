@@ -9,7 +9,7 @@ namespace :sharetribe do
       puts "post listing #{listing.id} to telegram"
 
       text = shape_name(listing)
-      text = text.blank? ? "#{text}: " : ''
+      text = text.blank? ? '' : "#{text}: "
       text += listing.title
       text += "\n#{url}"
 
