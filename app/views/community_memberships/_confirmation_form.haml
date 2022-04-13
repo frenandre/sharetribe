@@ -11,7 +11,7 @@
   %p= t("sessions.confirmation_pending.before_confirmation_only_access_admin_dashboard", {admin_dashboard_link: admin_dashboard_link}).html_safe
   %p= t("sessions.confirmation_pending.account_confirmation_instructions_admin", {email_address: "<b>#{email_to_confirm}</b>", support_link: contact_support_link}).html_safe
 - else
-  %p= t("sessions.confirmation_pending.account_confirmation_instructions")
+  %p= raw t("sessions.confirmation_pending.account_confirmation_instructions")
 
 %br/
 

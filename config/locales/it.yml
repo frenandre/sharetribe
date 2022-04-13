@@ -2830,7 +2830,7 @@ it:
       your_current_email_is: "La tua email è %{email}."
       change_email: Cambia
       confirm_your_email: "Conferma la tua email"
-      account_confirmation_instructions: "Presto riceverai un'e-mail con un link per confermare il tuo indirizzo email. Non dimenticare di controllare la cartella spam! Dopo aver confermato il tuo indirizzo, potrai unirti a %{service_name}."
+      account_confirmation_instructions: "Presto riceverai un'e-mail con un link per confermare il tuo indirizzo email. Non dimenticare di controllare la cartella spam! Dopo aver confermato il tuo indirizzo, potrai unirti a %{service_name}.<br/><br/>Attenzione! Se non ricevi un'e-mail, controlla la cartella SPAM oppure se la tua casella di posta è piena."
       account_confirmation_instructions_title_admin: "Conferma il tuo indirizzo email"
       before_full_access_you_need_to_confirm_email: "Prima di darti pieno acceso al tuo marketplace, c'è solo una cosa da fare: confermare l'indirizzo email."
       before_confirmation_only_access_admin_dashboard: "Prima di confermare puoi accedere soltanto a %{admin_dashboard_link}"
