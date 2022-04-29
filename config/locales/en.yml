@@ -2547,6 +2547,7 @@ en:
       payment_settings_link: "payment settings"
       community_not_configured_for_payments_admin: "%{service_name} hasn't been configured for payments, so you cannot post new listings yet. Go to %{payment_settings_link} to fill in the payment details."
       you_are_now_posting_a_listing_on_behalf_of: "You are now posting a listing on behalf of %{name}"
+      exceeded: "The maximum number of active listings has been exceeded. If necessary, delete outdated listings first."
     quantity:
       hour: "Number of hours:"
       day: "Number of days:"

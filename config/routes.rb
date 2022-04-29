@@ -755,6 +755,7 @@ Rails.application.routes.draw do
         get :browse
         get :locations_json
         get :verification_required
+        get :exceeded
       end
       resources :comments, :only => [:create, :destroy]
       resources :listing_images do

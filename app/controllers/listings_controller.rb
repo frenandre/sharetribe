@@ -100,6 +100,7 @@ class ListingsController < ApplicationController
   end
 
   def new
+    redirect_to exceeded_listings_path if @current_user.listings.count > 150
     @listing = Listing.new
     make_listing_presenter
   end
@@ -282,6 +283,10 @@ class ListingsController < ApplicationController
 
     flash[:error] = error_message
     redirect_to @listing and return
+  end
+
+  def exceeded
+    
   end
 
   private

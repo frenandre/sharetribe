@@ -2444,7 +2444,7 @@ it:
         comma_separate: (virgola)
         tags: Tag
       title:
-        listing_title: "Titolo dell'inserzione"
+        listing_title: "Titolo"
       valid_until:
         valid_until: "Data di scadenza"
       valid_until_radio_buttons:
@@ -2519,6 +2519,7 @@ it:
       payment_settings_link: "Impostazioni dei pagamenti"
       community_not_configured_for_payments_admin: "%{service_name} non è ancora stato configurato per i pagamenti, quindi non puoi pubblicare nuove inserzioni. Vai a %{payment_settings_link} per inserire i dettagli."
       you_are_now_posting_a_listing_on_behalf_of: ~
+      exceeded: "È stato superato il numero massimo di inserzioni attive. Possibilmente elimina prima le inserzioni obsolete."
     quantity:
       hour: "Numero di ore:"
       day: "Numero di giorni:"

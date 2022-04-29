@@ -2469,7 +2469,7 @@ de:
         comma_separate: "(Komma getrennt)"
         tags: Tags
       title:
-        listing_title: "Titel des Eintrags"
+        listing_title: "Titel"
       valid_until:
         valid_until: Ablaufdatum
       valid_until_radio_buttons:
@@ -2544,6 +2544,7 @@ de:
       payment_settings_link: Zahlungseinstellungen
       community_not_configured_for_payments_admin: "%{service_name} wurde nicht für Zahlungen konfiguriert, deswegen kannst du keine Einträge veröffentlichen. Gehe zu %{payment_settings_link} um die Zahlungsangaben einzutragen."
       you_are_now_posting_a_listing_on_behalf_of: "Du veröffentlichst jetzt einen Eintrag im Auftrag von %{name}"
+      exceeded: "Die maximal Anzahl der aktiven Einträge wurde überschritten. Lösche gegebenenfalls zuerst veraltete Einträge."
     quantity:
       hour: "Anzahl Stunden:"
       day: "Anzahl Tage:"
